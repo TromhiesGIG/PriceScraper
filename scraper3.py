@@ -921,6 +921,9 @@ class GoogleShoppingPriceScraper:
         logger.info(f"   CAPTCHA encounters: {self.captcha_detected_count}")
         logger.info(f"   Batch cooldowns taken: {self.searches_count // self.batch_size}")
         
+        # Clean up final driver
+        self.cleanup_driver()
+        
         return results
 
     def create_empty_result(self, product: Dict) -> Dict:

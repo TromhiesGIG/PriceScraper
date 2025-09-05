@@ -25,11 +25,20 @@ class GoogleShoppingPriceScraper:
         self.request_lock = threading.Lock()
         self.last_request_time = 0
         
-        # Rotating user agents to avoid detection
+        # NEW: Batch processing variables for anti-detection
+        self.searches_count = 0
+        self.batch_size = 20  # Searches before long break
+        self.batch_cooldown_min = 120  # 2 minutes minimum
+        self.batch_cooldown_max = 180  # 3 minutes maximum
+        self.captcha_detected_count = 0
+        
+        # Enhanced user agents to avoid detection
         self.user_agents = [
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
             'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
+            'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/121.0',
         ]
         
         # Target competitor domains
@@ -44,8 +53,70 @@ class GoogleShoppingPriceScraper:
             'cosmeticworld.ca': 'cosmeticworld'
         }
 
+    def check_batch_cooldown(self):
+        """NEW: Check if we need a batch cooldown and execute it"""
+        if self.searches_count > 0 and self.searches_count % self.batch_size == 0:
+            cooldown_time = random.uniform(self.batch_cooldown_min, self.batch_cooldown_max)
+            logger.info(f"🛑 BATCH COOLDOWN: Completed {self.searches_count} searches")
+            logger.info(f"⏳ Taking a {cooldown_time:.1f} second break to avoid detection...")
+            logger.info(f"☕ Time to grab a coffee! This helps prevent Google's bot detection.")
+            
+            # Show countdown every 30 seconds
+            remaining = cooldown_time
+            while remaining > 0:
+                if remaining > 30:
+                    time.sleep(30)
+                    remaining -= 30
+                    logger.info(f"⏱️  Still cooling down... {remaining:.0f} seconds remaining")
+                else:
+                    time.sleep(remaining)
+                    remaining = 0
+            
+            logger.info(f"✅ Cooldown complete! Resuming searches...")
+
+    def detect_and_handle_captcha(self, html: str) -> bool:
+        """NEW: Enhanced CAPTCHA detection and handling"""
+        captcha_indicators = [
+            'unusual traffic',
+            'captcha',
+            'verify you are human',
+            'prove you\'re not a robot',
+            'suspicious activity',
+            'automated queries',
+            'please verify',
+            'security check'
+        ]
+        
+        html_lower = html.lower()
+        captcha_detected = any(indicator in html_lower for indicator in captcha_indicators)
+        
+        if captcha_detected:
+            self.captcha_detected_count += 1
+            logger.error(f"🚨 CAPTCHA DETECTED (#{self.captcha_detected_count})")
+            logger.error("🤖 Google is blocking our requests - implementing emergency cooldown")
+            
+            # Emergency longer cooldown when CAPTCHA is detected
+            emergency_cooldown = random.uniform(300, 600)  # 5-10 minutes
+            logger.error(f"🆘 Emergency cooldown: {emergency_cooldown/60:.1f} minutes")
+            
+            # Show progress every minute
+            remaining = emergency_cooldown
+            while remaining > 0:
+                if remaining > 60:
+                    time.sleep(60)
+                    remaining -= 60
+                    logger.error(f"⏱️  Emergency cooldown... {remaining/60:.0f} minutes remaining")
+                else:
+                    time.sleep(remaining)
+                    remaining = 0
+            
+            logger.info("🔄 Emergency cooldown complete - trying with fresh session")
+            return True
+        
+        return False
+
     def create_driver(self) -> webdriver.Chrome:
-        """Create a more stealthy Chrome driver instance"""
+        """Enhanced driver creation with more randomization"""
         options = Options()
         
         if not self.debug_mode:
@@ -55,7 +126,11 @@ class GoogleShoppingPriceScraper:
         options.add_argument('--no-sandbox')
         options.add_argument('--disable-dev-shm-usage')
         options.add_argument('--disable-gpu')
-        options.add_argument('--window-size=1920,1080')
+        
+        # Randomize window size
+        window_sizes = ['1920,1080', '1366,768', '1440,900', '1536,864']
+        window_size = random.choice(window_sizes)
+        options.add_argument(f'--window-size={window_size}')
         options.add_argument('--start-maximized')
         
         # Advanced anti-detection
@@ -67,6 +142,13 @@ class GoogleShoppingPriceScraper:
         options.add_argument('--disable-web-security')
         options.add_argument('--allow-running-insecure-content')
         
+        # NEW: Additional stealth options
+        options.add_argument('--disable-features=VizDisplayCompositor')
+        options.add_argument('--disable-ipc-flooding-protection')
+        options.add_argument('--disable-renderer-backgrounding')
+        options.add_argument('--disable-backgrounding-occluded-windows')
+        options.add_argument('--disable-background-timer-throttling')
+        
         # User agent rotation
         user_agent = random.choice(self.user_agents)
         options.add_argument(f'--user-agent={user_agent}')
@@ -76,11 +158,15 @@ class GoogleShoppingPriceScraper:
         options.add_experimental_option('useAutomationExtension', False)
         options.add_experimental_option("detach", True)
         
-        # Prefs to disable notifications, location, etc.
+        # Enhanced prefs
         prefs = {
             "profile.default_content_setting_values": {
                 "notifications": 2,
                 "geolocation": 2,
+                "media_stream": 2,
+            },
+            "profile.managed_default_content_settings": {
+                "images": 2
             }
         }
         options.add_experimental_option("prefs", prefs)
@@ -94,10 +180,11 @@ class GoogleShoppingPriceScraper:
                 # Fallback for older selenium versions
                 driver = webdriver.Chrome(options=options)
             
-            # Execute scripts to remove webdriver traces
+            # Enhanced scripts to remove webdriver traces
             driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
             driver.execute_script("Object.defineProperty(navigator, 'plugins', {get: () => [1, 2, 3, 4, 5]})")
             driver.execute_script("Object.defineProperty(navigator, 'languages', {get: () => ['en-US', 'en']})")
+            driver.execute_script("Object.defineProperty(navigator, 'permissions', {get: () => undefined})")
             
             return driver
         except Exception as e:
@@ -119,15 +206,25 @@ class GoogleShoppingPriceScraper:
             logger.info(f"🐛 Debug HTML saved to: {filepath}")
 
     def make_request(self, url: str, timeout: int = 30) -> Optional[str]:
-        """Make request using Selenium with enhanced debugging"""
+        """Enhanced request method with batch cooldown"""
+        # NEW: Check if we need batch cooldown BEFORE making request
+        self.check_batch_cooldown()
+        
         with self.request_lock:
             current_time = time.time()
             time_since_last = current_time - self.last_request_time
-            min_delay = random.uniform(10, 15)
+            
+            # Dynamic delay based on search count
+            if self.searches_count < 10:
+                min_delay = random.uniform(8, 12)  # Faster start
+            elif self.searches_count < 15:
+                min_delay = random.uniform(12, 18)  # Medium delay
+            else:
+                min_delay = random.uniform(15, 25)  # Slower as we approach batch limit
             
             if time_since_last < min_delay:
                 sleep_time = min_delay - time_since_last
-                logger.info(f"⏳ Rate limiting: sleeping for {sleep_time:.1f} seconds...")
+                logger.info(f"⏳ Rate limiting: sleeping for {sleep_time:.1f} seconds... (search #{self.searches_count + 1})")
                 time.sleep(sleep_time)
             
             self.last_request_time = time.time()
@@ -136,6 +233,7 @@ class GoogleShoppingPriceScraper:
         try:
             driver = self.create_driver()
             logger.info(f"🌐 Loading page with Selenium: {url}")
+            logger.info(f"📊 Search #{self.searches_count + 1} (next cooldown at {((self.searches_count // self.batch_size) + 1) * self.batch_size})")
             
             # Set timeouts
             driver.set_page_load_timeout(30)
@@ -145,7 +243,18 @@ class GoogleShoppingPriceScraper:
             driver.get(url)
             
             # Wait a bit for page to settle
-            time.sleep(3)
+            time.sleep(random.uniform(3, 6))
+            
+            # Get HTML and check for CAPTCHA
+            html = driver.page_source
+            
+            # NEW: Check for CAPTCHA and handle it
+            if self.detect_and_handle_captcha(html):
+                # If CAPTCHA detected, return None to trigger retry
+                return None
+            
+            # Increment search count after successful request
+            self.searches_count += 1
             
             # Check if we're on the right page
             current_url = driver.current_url
@@ -163,7 +272,6 @@ class GoogleShoppingPriceScraper:
                     logger.debug(f"Could not save screenshot: {e}")
             
             # Get initial HTML for debugging
-            html = driver.page_source
             self.save_debug_html(html, f"initial_page_{int(time.time())}.html")
             
             # Check for common Google blocking indicators
@@ -292,7 +400,7 @@ class GoogleShoppingPriceScraper:
         return analysis
 
     def search_google_shopping(self, product: Dict) -> Dict:
-        """Search Google Shopping with enhanced debugging"""
+        """Search Google Shopping with enhanced retry logic for CAPTCHA"""
         product_name = product.get('product_name', '').strip()
         company_name = product.get('companyName', {}).get('name', '').strip()
         barcode = product.get('bar_code_value', '').strip()
@@ -343,105 +451,124 @@ class GoogleShoppingPriceScraper:
             encoded_query = quote_plus(search_query)
             google_shopping_url = f"https://www.google.com/search?q={encoded_query}&gl=ca&hl=en"
 
-            try:
-                response_html = self.make_request(google_shopping_url)
-                if not response_html:
-                    logger.warning(f"❌ Failed to get response for attempt {i+1}")
-                    continue
-                
-                # Analyze what we got
-                analysis = self.analyze_page_content(response_html, search_query)
-                logger.info(f"📊 Page analysis for attempt {i+1}:")
-                logger.info(f"   Title: {analysis['title'][:100]}...")
-                logger.info(f"   Has shopping results: {analysis['has_shopping_results']}")
-                logger.info(f"   Total links: {analysis['total_links']}")
-                logger.info(f"   Price mentions: {len(analysis['price_mentions'])}")
-                logger.info(f"   Target domains found: {analysis['domain_mentions']}")
-                
-                if analysis['price_mentions']:
-                    logger.info(f"   Sample prices: {analysis['price_mentions'][:5]}")
-                
-                soup = BeautifulSoup(response_html, 'html.parser')
-                
-                # Try to extract results with more flexible approach
-                shopping_results = []
-                
-                # Primary selectors (most specific first)
-                selectors = [
-                    'a.plantl.clickable-card.pla-unit-single-clickable-target',
-                    'a.plantl',
-                    'a[data-merchant-id]',
-                    'a[data-offer-id]',
-                    'a[href*="matandmax.com"]',
-                    'a[href*="beautywellness.ca"]',
-                    'a[href*="coastalbeauty.ca"]',
-                    'a[href*="shopempire.ca"]',
-                    'a[href*="shoptbbs.ca"]',
-                    'a[href*="liviabeauty.ca"]',
-                    'a[href*="aonebeauty.com"]',
-                    'a[href*="cosmeticworld.ca"]'
-                ]
-                
-                for selector in selectors:
-                    elements = soup.select(selector)
-                    if elements:
-                        shopping_results.extend(elements)
-                        logger.info(f"   Found {len(elements)} results with: {selector}")
-                
-                # Remove duplicates while preserving order
-                seen_hrefs = set()
-                unique_results = []
-                for elem in shopping_results:
-                    href = elem.get('href', '')
-                    if href and href not in seen_hrefs:
-                        seen_hrefs.add(href)
-                        unique_results.append(elem)
-                
-                shopping_results = unique_results
-                
-                if not shopping_results:
-                    logger.warning(f"❌ No shopping results found for attempt {i+1}")
-                    if i < len(search_queries) - 1:
-                        logger.info("   Trying next search variation...")
-                        time.sleep(5)  # Brief pause between attempts
+            # NEW: Retry logic for CAPTCHA
+            max_retries = 3
+            response_html = None
+            for retry in range(max_retries):
+                try:
+                    response_html = self.make_request(google_shopping_url)
+                    if response_html is None:
+                        if retry < max_retries - 1:
+                            logger.warning(f"🔄 Request failed (attempt {retry + 1}/{max_retries}), retrying...")
+                            time.sleep(random.uniform(30, 60))  # Wait before retry
+                            continue
+                        else:
+                            logger.error(f"❌ All retries failed for search query {i+1}")
+                            break
+                    else:
+                        # Success! Break out of retry loop
+                        break
+                except Exception as e:
+                    logger.error(f"❌ Error in retry {retry + 1}: {e}")
+                    if retry < max_retries - 1:
+                        time.sleep(random.uniform(30, 60))
                         continue
                     else:
-                        logger.warning("   No more search variations to try")
-                        return result
-                
-                logger.info(f"📦 Found {len(shopping_results)} unique shopping results")
-                
-                # Process results
-                for j, result_elem in enumerate(shopping_results[:20]):
-                    try:
-                        href = result_elem.get('href', '')
-                        aria_label = result_elem.get('aria-label', '')
-                        text_content = result_elem.get_text()
-                        
-                        logger.debug(f"   Result {j+1}: {href[:50]}...")
-                        if aria_label:
-                            logger.debug(f"   Aria-label: {aria_label[:100]}...")
-                        
-                        self.extract_competitor_data_from_link(result_elem, result, product, j+1)
-                    except Exception as e:
-                        logger.debug(f"Error processing result {j+1}: {e}")
-                        continue
-                
-                # Check if we found anything
-                found_any = any(result.get(f'{key}_price') is not None for key in self.target_domains.values())
-                
-                if found_any:
-                    logger.info("✅ Found competitor data, using this search")
-                    break
-                else:
-                    logger.warning(f"❌ No competitor data extracted from attempt {i+1}")
-                    if i < len(search_queries) - 1:
-                        logger.info("   Trying next search variation...")
-                        time.sleep(5)
-                
-            except Exception as e:
-                logger.error(f"❌ Error in search attempt {i+1}: {e}")
+                        response_html = None
+            
+            if not response_html:
+                logger.warning(f"❌ Failed to get response for attempt {i+1}")
                 continue
+            
+            # Analyze what we got
+            analysis = self.analyze_page_content(response_html, search_query)
+            logger.info(f"📊 Page analysis for attempt {i+1}:")
+            logger.info(f"   Title: {analysis['title'][:100]}...")
+            logger.info(f"   Has shopping results: {analysis['has_shopping_results']}")
+            logger.info(f"   Total links: {analysis['total_links']}")
+            logger.info(f"   Price mentions: {len(analysis['price_mentions'])}")
+            logger.info(f"   Target domains found: {analysis['domain_mentions']}")
+            
+            if analysis['price_mentions']:
+                logger.info(f"   Sample prices: {analysis['price_mentions'][:5]}")
+            
+            soup = BeautifulSoup(response_html, 'html.parser')
+            
+            # Try to extract results with more flexible approach
+            shopping_results = []
+            
+            # Primary selectors (most specific first)
+            selectors = [
+                'a.plantl.clickable-card.pla-unit-single-clickable-target',
+                'a.plantl',
+                'a[data-merchant-id]',
+                'a[data-offer-id]',
+                'a[href*="matandmax.com"]',
+                'a[href*="beautywellness.ca"]',
+                'a[href*="coastalbeauty.ca"]',
+                'a[href*="shopempire.ca"]',
+                'a[href*="shoptbbs.ca"]',
+                'a[href*="liviabeauty.ca"]',
+                'a[href*="aonebeauty.com"]',
+                'a[href*="cosmeticworld.ca"]'
+            ]
+            
+            for selector in selectors:
+                elements = soup.select(selector)
+                if elements:
+                    shopping_results.extend(elements)
+                    logger.info(f"   Found {len(elements)} results with: {selector}")
+            
+            # Remove duplicates while preserving order
+            seen_hrefs = set()
+            unique_results = []
+            for elem in shopping_results:
+                href = elem.get('href', '')
+                if href and href not in seen_hrefs:
+                    seen_hrefs.add(href)
+                    unique_results.append(elem)
+            
+            shopping_results = unique_results
+            
+            if not shopping_results:
+                logger.warning(f"❌ No shopping results found for attempt {i+1}")
+                if i < len(search_queries) - 1:
+                    logger.info("   Trying next search variation...")
+                    time.sleep(5)  # Brief pause between attempts
+                    continue
+                else:
+                    logger.warning("   No more search variations to try")
+                    return result
+            
+            logger.info(f"📦 Found {len(shopping_results)} unique shopping results")
+            
+            # Process results
+            for j, result_elem in enumerate(shopping_results[:20]):
+                try:
+                    href = result_elem.get('href', '')
+                    aria_label = result_elem.get('aria-label', '')
+                    text_content = result_elem.get_text()
+                    
+                    logger.debug(f"   Result {j+1}: {href[:50]}...")
+                    if aria_label:
+                        logger.debug(f"   Aria-label: {aria_label[:100]}...")
+                    
+                    self.extract_competitor_data_from_link(result_elem, result, product, j+1)
+                except Exception as e:
+                    logger.debug(f"Error processing result {j+1}: {e}")
+                    continue
+            
+            # Check if we found anything
+            found_any = any(result.get(f'{key}_price') is not None for key in self.target_domains.values())
+            
+            if found_any:
+                logger.info("✅ Found competitor data, using this search")
+                break
+            else:
+                logger.warning(f"❌ No competitor data extracted from attempt {i+1}")
+                if i < len(search_queries) - 1:
+                    logger.info("   Trying next search variation...")
+                    time.sleep(5)
         
         # Log final results
         found_competitors = []
@@ -459,7 +586,7 @@ class GoogleShoppingPriceScraper:
         return result
 
     def extract_competitor_data_from_link(self, link_elem, result_dict: Dict, product: Dict, position: int):
-        """FIXED: Enhanced competitor data extraction - Choose best match, not lowest price"""
+        """Enhanced competitor data extraction - Choose best match, not lowest price"""
         try:
             href = link_elem.get('href', '')
             if not href:
@@ -529,7 +656,7 @@ class GoogleShoppingPriceScraper:
                     validation_passed = True
                 
                 if validation_passed:
-                    # FIXED: Choose best match logic instead of lowest price
+                    # Choose best match logic instead of lowest price
                     existing_price = result_dict.get(f'{competitor_key}_price')
                     existing_position = result_dict.get(f'{competitor_key}_position', float('inf'))
                     
@@ -745,7 +872,7 @@ class GoogleShoppingPriceScraper:
         return None
 
     def process_products(self, products: List[Dict], max_products: int = None) -> List[Dict]:
-        """Process products with enhanced debugging"""
+        """Enhanced product processing with batch tracking"""
         if max_products:
             products = products[:max_products]
         
@@ -754,13 +881,15 @@ class GoogleShoppingPriceScraper:
         
         logger.info(f"🚀 Starting Google Shopping search for {total_products} products")
         logger.info(f"🎯 Looking for prices from: {', '.join(self.target_domains.values())}")
-        logger.info(f"🐛 Debug mode: {'ON' if self.debug_mode else 'OFF'}")
-        logger.info(f"✨ FIXED: Using BEST MATCH logic instead of lowest price!")
+        logger.info(f"🛡️ Anti-detection: {self.batch_size} searches per cooldown cycle")
+        logger.info(f"⏰ Cooldown duration: {self.batch_cooldown_min/60:.1f}-{self.batch_cooldown_max/60:.1f} minutes")
+        logger.info(f"✨ Using BEST MATCH logic instead of lowest price!")
         
         for i, product in enumerate(products):
             logger.info(f"\n{'='*80}")
             logger.info(f"📦 PROCESSING PRODUCT {i+1}/{total_products}")
             logger.info(f"Product: {product.get('companyName', {}).get('name', 'Unknown')} - {product.get('product_name', 'Unknown')}")
+            logger.info(f"🔢 Total searches so far: {self.searches_count}")
             logger.info(f"{'='*80}")
             
             try:
@@ -772,14 +901,25 @@ class GoogleShoppingPriceScraper:
                                 if key.endswith('_price') and value is not None)
                 logger.info(f"📊 Product {i+1} complete: Found {found_count}/{len(self.target_domains)} competitor prices")
                 
+                # Show batch progress
+                next_cooldown = ((self.searches_count // self.batch_size) + 1) * self.batch_size
+                searches_until_cooldown = next_cooldown - self.searches_count
+                if searches_until_cooldown <= 5:
+                    logger.info(f"⚠️  Approaching batch cooldown: {searches_until_cooldown} searches remaining")
+                
                 if i < total_products - 1:
-                    delay = random.uniform(15, 25)
-                    logger.info(f"⏳ Waiting {delay:.1f}s before next product...")
+                    delay = random.uniform(2, 5)  # Shorter delay since we have batch cooldowns
+                    logger.info(f"⏳ Brief pause: {delay:.1f}s before next product...")
                     time.sleep(delay)
                 
             except Exception as e:
                 logger.error(f"❌ Error processing product {i+1}: {e}")
                 results.append(self.create_empty_result(product))
+        
+        logger.info(f"\n🏁 FINAL STATS:")
+        logger.info(f"   Total searches performed: {self.searches_count}")
+        logger.info(f"   CAPTCHA encounters: {self.captcha_detected_count}")
+        logger.info(f"   Batch cooldowns taken: {self.searches_count // self.batch_size}")
         
         return results
 
@@ -817,12 +957,11 @@ def main():
         logger.error(f"❌ Error parsing JSON: {e}")
         return
 
-    # Test with just a few products first
-    logger.info("🧪 Testing with first few products...")
+    logger.info("🧪 Starting with enhanced anti-detection system...")
     results = scraper.process_products(products, max_products=1500)
     
     # Save results
-    output_file = input_file.replace('.json', '_FIXED_best_match_results.json')
+    output_file = input_file.replace('.json', '_anti_detection_results.json')
     
     try:
         with open(output_file, 'w', encoding='utf-8') as f:
@@ -845,7 +984,7 @@ def main():
             total_found += count
             logger.info(f"   {domain_key}: {count}/{len(results)} products")
         logger.info(f"   TOTAL: {total_found} prices found across all competitors")
-        logger.info(f"🎯 Now using BEST MATCH logic - should get exact products!")
+        logger.info(f"🛡️ Anti-detection system successfully completed {scraper.searches_count} searches")
         
     except Exception as e:
         logger.error(f"❌ Error saving results: {e}")

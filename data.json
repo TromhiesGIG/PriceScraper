@@ -1,0 +1,2312 @@
+[
+  {
+    "product_name": "Hydro-Nourishing Shampoo 10oz",
+    "description": "Urban Moisture shampoo contains some extraordinary nutrition and hydration capacities to avoid a possible dryness. Its formula gently cleans and purifies dry hair in lack of hydration. Furthermore, its use eliminates impurities and activates cells regeneration, giving to the hair a brightness and softness effect.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 70
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Shampoos",
+        "sub": "Hydrating"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/113314/shu-uemura-hydro-nourishing-shampoo-10oz-600.jpg?1599685476"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "3474636400331",
+    "status": "",
+    "companyName": {
+      "name": "Shu Uemura"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "For normal to dry hair\nSuitable for colored hair\nMoringa extract '' the miracle tree ''\nRed algae extract\nHydrates, cleanses and pufifies\nStimulates cell regeneration"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Apply to wet hair\nMassage\nRinse thoroughly"
+      }
+    ],
+    "lineName": "Urban Moisture",
+    "isHidden": true
+  },
+  {
+    "product_name": "Nourishing Protective Hair Oil 5oz",
+    "description": "Infused with Red Camellia Oil, Shu Uemura's Nourishing Hair Oil protects the hair fiber against UV rays, heat and damage. This product smoothes frizz and hydrates hair while enhancing its shine.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 97
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Speciality Products",
+        "sub": "Oils And Serums"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/127765/shu-uemura-nourishing-protective-hair-oil-5oz-600.jpg?1697743964",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/158300/shu-uemura-nourishing-protective-hair-oil-5oz-600.jpg?1753728071",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/158302/shu-uemura-nourishing-protective-hair-oil-5oz-600.jpg?1753728073",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/127766/shu-uemura-nourishing-protective-hair-oil-5oz-600.jpg?1753728073",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/158301/shu-uemura-nourishing-protective-hair-oil-5oz-600.jpg?1753728073",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/158303/shu-uemura-nourishing-protective-hair-oil-5oz-600.jpg?1753728069"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "3474637156916",
+    "status": "",
+    "companyName": {
+      "name": "Shu Uemura"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "Protects against UV rays, heat\nReduces frizz\nDeeply hydrates\n48 hours of shine\n96% less damage\n6.8% more softness\nProtection up to 230°C\nLightweight\nInfused with red camellia oil\nFor softer hair full of vitality"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Apply 1 or 2 pumps on lenghts"
+      }
+    ],
+    "lineName": "Essence Absolue",
+    "isHidden": true
+  },
+  {
+    "product_name": "Oil-in-Cream 5oz",
+    "description": "This Shu Uemura oil-in-cream deeply nourishes very dry hair. Formulated with Red Camellia Oil, this product helps control frizz and unruly hair for smooth, soft and shiny results.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 82
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Speciality Products",
+        "sub": "Oils And Serums"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/127759/shu-uemura-oil-in-cream-5oz-600.jpg?1697743453",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/127763/shu-uemura-oil-in-cream-5oz-600.jpg?1697743770",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/158310/shu-uemura-oil-in-cream-5oz-600.jpg?1753728423",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/158311/shu-uemura-oil-in-cream-5oz-600.jpg?1753728423",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/158312/shu-uemura-oil-in-cream-5oz-600.jpg?1753728423",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/127764/shu-uemura-oil-in-cream-5oz-600.jpg?1753728423"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "3474637156879",
+    "status": "",
+    "companyName": {
+      "name": "Shu Uemura"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "Oil-in-cream\n48 hours of shine\n98% less damage\nHair 25% smoother\nProvides intense nutrition\nProtects from UV rays and from heat for up to 230°C\nControls frizz\nFormulated with red camellia oil\nHair is easier to style\nSuitable for thick hair"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Apply to damp hair\nDo not rinse"
+      }
+    ],
+    "lineName": "Essence Absolue",
+    "isHidden": true
+  },
+  {
+    "product_name": "Extreme Restauration Duo-Serum 1oz",
+    "description": "The Ultimate Reset range contains extremely effective products, offering the intense repair that damaged hair needs. This duo-serum contains a unique blend of a restorative care and a thermo-protective styling cream. This leave-in treatment repairs and adds shine, the cream allows an easier hairstyling and a heat protection.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 67
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Speciality Products",
+        "sub": "Oils And Serums"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/113324/shu-uemura-extreme-restauration-duo-serum-1oz-600.jpg?1599685483"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "3474636604340",
+    "status": "",
+    "companyName": {
+      "name": "Shu Uemura"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "For very damaged hair by bleach, color, perm or straightening\nJapanese-sourced rice extract\nDeeply repairs\nDoesn't weight down the hair\nProvides a thermal protection"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Press firmly at the center of the pump to dispense\nApply on damp hair, leave-in\nStyle as desired"
+      }
+    ],
+    "lineName": "Ultimate Reset",
+    "isHidden": true
+  },
+  {
+    "product_name": "Overnight Serum 3.04oz",
+    "description": "The Ultimate Reset Overnight Serum is a multi-benefit night serum that repairs damaged hair, restores strength and leaves hair looking smooth and shiny. ",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 84
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Speciality Products",
+        "sub": "Oils And Serums"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/131592/shu-uemura-overnight-serum-3-04oz-600.jpg?1712776592",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/158296/shu-uemura-overnight-serum-3-04oz-600.jpg?1753727217",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/158298/shu-uemura-overnight-serum-3-04oz-600.jpg?1753727221",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/158294/shu-uemura-overnight-serum-3-04oz-600.jpg?1753727221",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/158295/shu-uemura-overnight-serum-3-04oz-600.jpg?1753727221",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/158297/shu-uemura-overnight-serum-3-04oz-600.jpg?1753727221"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "3474637206697",
+    "status": "",
+    "companyName": {
+      "name": "Shu Uemura"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "3x smoother hair\n95% stronger hair\nReduces breakage by 95%\nHelps fight up to 1 year of damage in one use\nAdds shine\nNourishes, hydrates and softens hair\nInfused with Japanese-sourced rice extract and peptides"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Apply before bed, on dry or damp lengths and ends\nUse 2-4 pumps for fine to medium hair\nUse 4-6 pumps for medium to thick hair\nDo not rinse\nStyle hair as desired in the morning"
+      }
+    ],
+    "lineName": "Ultimate Reset",
+    "isHidden": true
+  },
+  {
+    "product_name": "Overnight Serum 5oz",
+    "description": "Shu Uemura's Serum is a luxurious treatment that deeply nourishes and repairs hair overnight, leaving it soft, and smooth. Enriched with red camellia oil, this serum is quickly absorbed by the hair fiber. In the morning, hair is easy to style and with unrivalled shine.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 97
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Speciality Products",
+        "sub": "Oils And Serums"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/127768/shu-uemura-overnight-serum-5oz-600.jpg?1697744090",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/127772/shu-uemura-overnight-serum-5oz-600.jpg?1697744247",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/127771/shu-uemura-overnight-serum-5oz-600.jpg?1697744247"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "3474637156909",
+    "status": "",
+    "companyName": {
+      "name": "Shu Uemura"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "48h shine\n97% less hair breakage\n+25% smoother hair\nEnriched with camellia seed oil\nSofter hair\nFrizz control\nAbsorbs quickly\nTop scent notes : grapefruit and green aqueous, white flowers, vanilla"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Apply 1 or 2 pumps on hair before bedtime"
+      }
+    ],
+    "lineName": "Essence Absolue",
+    "isHidden": true
+  },
+  {
+    "product_name": "Overnight Serum 1.5oz",
+    "description": "The Ultimate Reset Overnight Serum is a multi-benefit night serum that repairs damaged hair, restores strength and leaves hair looking smooth and shiny. ",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 33
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Speciality Products",
+        "sub": "Oils And Serums"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/131600/shu-uemura-overnight-serum-1-5oz-600.jpg?1712777759",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/158289/shu-uemura-overnight-serum-1-5oz-600.jpg?1753727082",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/158292/shu-uemura-overnight-serum-1-5oz-600.jpg?1753727093",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/158293/shu-uemura-overnight-serum-1-5oz-600.jpg?1753727094",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/158290/shu-uemura-overnight-serum-1-5oz-600.jpg?1753727094",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/158291/shu-uemura-overnight-serum-1-5oz-600.jpg?1753727094"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "3474637206673",
+    "status": "",
+    "companyName": {
+      "name": "Shu Uemura"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "3x smoother hair\n95% stronger hair\nReduces breakage by 95%\nHelps fight up to 1 year of damage in one use\nAdds shine\nNourishes, hydrates and softens hair\nInfused with Japanese-sourced rice extract and peptides"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Apply before bed, on dry or damp lengths and ends\nUse 2-4 pumps for fine to medium hair\nUse 4-6 pumps for medium to thick hair\nDo not rinse\nStyle hair as desired in the morning"
+      }
+    ],
+    "lineName": "Ultimate Reset",
+    "isHidden": true
+  },
+  {
+    "product_name": "Nourishing Universal Hair & Skin Balm 5oz",
+    "description": "Shu Uemura's Nourishing Universal Hair & Skin Balm is a product designed to nourish both hair and skin for a soft and radiant finish. Enriched with red camellia oil, this balm adds a touch of luxurious shine to your locks and skin for up to 48 hours. ",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 70
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Speciality Products",
+        "sub": "Oils And Serums"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/127760/shu-uemura-nourishing-universal-hair-and-skin-balm-5oz-600.jpg?1697743637",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/127761/shu-uemura-nourishing-universal-hair-and-skin-balm-5oz-600.jpg?1697743701",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/127762/shu-uemura-nourishing-universal-hair-and-skin-balm-5oz-600.jpg?1697743705"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "3474637156886",
+    "status": "",
+    "companyName": {
+      "name": "Shu Uemura"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "48h shine\n+72% smooth hair\n99%less hair breakage\n24h long-lasting hydration on skin\nEnriched with red camellia seed oil\nCan be used on facial hair and dry parts of the body\nWhite cream texture\nTop scent notes: grapefruit and green aqueous, white flowers, vanilla"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Apply on wet or damp hair\nReapply as necessary\nDo not rinse"
+      }
+    ],
+    "lineName": "Essence Absolue",
+    "isHidden": true
+  },
+  {
+    "product_name": "Nourishing Protective Oil 1.01oz",
+    "description": "Infused with Red Camellia Oil, Shu Uemura's Nourishing Hair Oil protects the hair fiber against UV rays, heat and damage. This product smoothes frizz and hydrates hair while enhancing its shine.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 38
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Speciality Products",
+        "sub": "Oils And Serums"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/139389/shu-uemura-nourishing-protective-oil-1-01oz-600.jpg?1724869630",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/127753/shu-uemura-nourishing-protective-oil-1-01oz-600.jpg?1724869630",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/158305/shu-uemura-nourishing-protective-oil-1-01oz-600.jpg?1753728119",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/158306/shu-uemura-nourishing-protective-oil-1-01oz-600.jpg?1753728124"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "3474637159542",
+    "status": "",
+    "companyName": {
+      "name": "Shu Uemura"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "Protects against UV rays, heat\nReduces frizz\nDeeply hydrates\n48 hours of shine\n96% less damage\n6.8% more softness\nProtection up to 230°C\nLightweight\nInfused with red camellia oil\nFor softer hair full of vitality"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Apply 1 or 2 pumps on lengths"
+      }
+    ],
+    "lineName": "Essence Absolue",
+    "isHidden": true
+  },
+  {
+    "product_name": "Overnight Serum 1.01oz",
+    "description": "Shu Uemura's Serum is a luxurious treatment that deeply nourishes and repairs hair overnight, leaving it soft, and smooth. Enriched with red camellia oil, this serum is quickly absorbed by the hair fiber. In the morning, hair is easy to style and with unrivalled shine.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 40
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Speciality Products",
+        "sub": "Oils And Serums"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/127769/shu-uemura-overnight-serum-1-01oz-600.jpg?1697744175",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/127770/shu-uemura-overnight-serum-1-01oz-600.jpg?1697744209",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/127752/shu-uemura-overnight-serum-1-01oz-600.jpg?1697744209"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "3474637188528",
+    "status": "",
+    "companyName": {
+      "name": "Shu Uemura"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "48h shine\n97% less hair breakage\n+25% smoother hair\nEnriched with camellia seed oil\nSofter hair\nFrizz control\nAbsorbs quickly\nTop scent notes : grapefruit and green aqueous, white flowers, vanilla"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Apply 1 or 2 pumps on hair before bedtime"
+      }
+    ],
+    "lineName": "Essence Absolue",
+    "isHidden": true
+  },
+  {
+    "product_name": "Nourishing Soothing Scalp Oil Concentrate 1.69oz",
+    "description": null,
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 70
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Speciality Products",
+        "sub": "Oils And Serums"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/127756/shu-uemura-nourishing-soothing-scalp-oil-concentrate-1-69oz-600.jpg?1697743001",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/127757/shu-uemura-nourishing-soothing-scalp-oil-concentrate-1-69oz-600.jpg?1697743045",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/127758/shu-uemura-nourishing-soothing-scalp-oil-concentrate-1-69oz-600.jpg?1697743047"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "3474637156879",
+    "status": "",
+    "companyName": {
+      "name": "Shu Uemura"
+    },
+    "priceType": "single",
+    "details": [],
+    "lineName": "Essence Absolue",
+    "isHidden": true
+  },
+  {
+    "product_name": "Thickening Serum 3.04oz",
+    "description": null,
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 84
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Speciality Products",
+        "sub": "Oils And Serums"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/125889/shu-uemura-thickening-serum-3-04oz-600.jpg?1681931726"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "3474637136468",
+    "status": "",
+    "companyName": {
+      "name": "Shu Uemura"
+    },
+    "priceType": "single",
+    "details": [],
+    "lineName": "Izumi Tonic",
+    "isHidden": true
+  },
+  {
+    "product_name": "Intense Revitalization Serum 3oz",
+    "description": "The Ashita Supreme range is inspired by the moisturizing and regenerating properties of the Japanese plant Ashitaba. For intense, long-lasting revitalization.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 88
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Speciality Products",
+        "sub": "Oils And Serums"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/156232/shu-uemura-intense-revitalization-serum-3oz-600.jpg?1748608014",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/121192/shu-uemura-intense-revitalization-serum-3oz-600.jpg?1748608014",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/121193/shu-uemura-intense-revitalization-serum-3oz-600.jpg?1748608014"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "3474637271961",
+    "status": "",
+    "companyName": {
+      "name": "Shu Uemura"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "Light serum\nRapid absorption\nNourish\nSmoothes frizz\nIncreases shine\nAshitaba extract"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Apply to dry hair\nDo not rinse"
+      }
+    ],
+    "lineName": "Ashita Supreme",
+    "isHidden": true
+  },
+  {
+    "product_name": "Ishi Sculpt - Sculpting Paste 2.55oz",
+    "description": "Shu Uemura's Ishi Sculpt is a sculpting texturizing paste that texturizes and defines styles with long-lasting hold.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 59
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Styling Products",
+        "sub": "Pastes"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/137844/shu-uemura-ishi-sculpt-sculpting-paste-2-55oz-600.jpg?1723556208",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/137845/shu-uemura-ishi-sculpt-sculpting-paste-2-55oz-600.jpg?1723556209",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/137846/shu-uemura-ishi-sculpt-sculpting-paste-2-55oz-600.jpg?1723556210",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/137847/shu-uemura-ishi-sculpt-sculpting-paste-2-55oz-600.jpg?1723556212",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/137859/shu-uemura-ishi-sculpt-sculpting-paste-2-55oz-600.jpg?1723556447"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "3474636876891",
+    "status": "",
+    "companyName": {
+      "name": "Shu Uemura"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "Sculpting pomade\nWorkable hold\nDemi-matte finish"
+      },
+      {
+        "key": "HOW  TO USE",
+        "value": "Apply on towel-dried hair or dry hair for a strong, structured style\nCan be blended and layered with other styling products"
+      }
+    ],
+    "lineName": "Styling",
+    "isHidden": true
+  },
+  {
+    "product_name": "Umou Hold - Hold Cream 3.4oz",
+    "description": "Shu Uemura's Umou Hold is a defining strong hold cream that offers heat protection and humidity resistance, perfect for achieving polished and controlled styles.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 59
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Styling Products",
+        "sub": "Creams"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/137837/shu-uemura-umou-hold-hold-cream-3-4oz-600.jpg?1723556077",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/137838/shu-uemura-umou-hold-hold-cream-3-4oz-600.jpg?1723556079",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/137839/shu-uemura-umou-hold-hold-cream-3-4oz-600.jpg?1723556080",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/137856/shu-uemura-umou-hold-hold-cream-3-4oz-600.jpg?1723556421"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "3474636876877",
+    "status": "",
+    "companyName": {
+      "name": "Shu Uemura"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "Ideal for short to medium length haiur\nDoes not weigh hair down\nNo residue or stickiness\nSmooths\nProvides a subtle natural shine\nPerfect for slick-backed hairstyles"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Emulsify a small amount of product in hands\nSmooth cream through damp or dry hair\nComb through or let air-dry\nStyle as desired"
+      }
+    ],
+    "lineName": "Styling",
+    "isHidden": true
+  },
+  {
+    "product_name": "Wata Wave - Texture Spray 7.54oz",
+    "description": "Shu Uemura's Wata Wave Matte Texturizing Spray adds volume and movement to your hair while enhancing definition for the perfect blow-dry.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 59
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Styling Products",
+        "sub": "Texturizing"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/137815/shu-uemura-wata-wave-texture-spray-7-54oz-600.jpg?1723555741",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/137816/shu-uemura-wata-wave-texture-spray-7-54oz-600.jpg?1723555743",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/137850/shu-uemura-wata-wave-texture-spray-7-54oz-600.jpg?1723556366"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "884486452436",
+    "status": "",
+    "companyName": {
+      "name": "Shu Uemura"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "Long-lasting flexible hold\nMatte finish\nIdeal for all hair types\nProvides buildable texture"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Spray 8-10 inches away from dry hair\nWork into hair with fingers"
+      }
+    ],
+    "lineName": "Styling",
+    "isHidden": true
+  },
+  {
+    "product_name": "Nendo Definer - Matte Clay 2.55oz",
+    "description": "Shu Uemura's Nendo Definer is a matte defining clay that offers workable hold and builds texture. It's ideal for creating and controlling textured, unruly styles with a silky, matte finish.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 59
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Styling Products",
+        "sub": "Clays"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/137841/shu-uemura-nendo-definer-matte-clay-2-55oz-600.jpg?1723556166",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/137842/shu-uemura-nendo-definer-matte-clay-2-55oz-600.jpg?1723556167",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/137843/shu-uemura-nendo-definer-matte-clay-2-55oz-600.jpg?1723556169",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/137858/shu-uemura-nendo-definer-matte-clay-2-55oz-600.jpg?1723556438"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "3474636876884",
+    "status": "",
+    "companyName": {
+      "name": "Shu Uemura"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "Defines hair strands\nIdeal for a textured style\nWorkable hold\nCan create both rebellious and controlled hairstyles"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Apply on towel-dried hair or dry hair for textured styles\nCan be blended and layered with other styling products"
+      }
+    ],
+    "lineName": "Styling",
+    "isHidden": true
+  },
+  {
+    "product_name": "Uzu Cotton - Definition Cream 2.55oz",
+    "description": "Shu Uemura's Uzu Cotton is a wave-defining cream that provides flexible hold and definition. It enhances your waves with a natural, manageable finish while allowing for versatile styling.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 59
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Styling Products",
+        "sub": "Creams"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/137840/shu-uemura-uzu-cotton-definition-cream-2-55oz-600.jpg?1723556125",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/137857/shu-uemura-uzu-cotton-definition-cream-2-55oz-600.jpg?1723556431"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "3474636876907",
+    "status": "",
+    "companyName": {
+      "name": "Shu Uemura"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "Ideal for wavy and curly hair\nLightweight pomade\nFinishing product\nPerfect to create unique and personalized textures"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Apply on towel-dried hair or on dry hair for a textured, unruly style\nCan be blended and layered with other styling products"
+      }
+    ],
+    "lineName": "Styling",
+    "isHidden": true
+  },
+  {
+    "product_name": "Netsu Design - Blow Dry Cream 5oz",
+    "description": "Shu Uemura's Netsu Design is a heat-protective styling cream that shields hair from frizz for up to 9 hours, offering a natural feel and retouchable results.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 59
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Styling Products",
+        "sub": "Creams"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/137832/shu-uemura-netsu-design-blow-dry-cream-5oz-600.jpg?1723555954",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/137833/shu-uemura-netsu-design-blow-dry-cream-5oz-600.jpg?1723555956",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/137834/shu-uemura-netsu-design-blow-dry-cream-5oz-600.jpg?1723555957",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/137835/shu-uemura-netsu-design-blow-dry-cream-5oz-600.jpg?1723555958",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/137836/shu-uemura-netsu-design-blow-dry-cream-5oz-600.jpg?1723555960",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/137855/shu-uemura-netsu-design-blow-dry-cream-5oz-600.jpg?1723556412"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "3474636876860",
+    "status": "",
+    "companyName": {
+      "name": "Shu Uemura"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "Provides heat protection up to 230 °C\nTames frizz\nLong-lasting effect\nRepositionable results"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Apply on damp hair\nBlow-dry and style hair\nReactivate by reapplying heat"
+      }
+    ],
+    "lineName": "Styling",
+    "isHidden": true
+  },
+  {
+    "product_name": "Moya Hold - Finishing Hair Spray 10oz",
+    "description": "Shu Uemura's Moya Hold is a finishing hairspray that provides a strong yet flexible, long-lasting hold while defining your style. Its weightless, micro-fine mist ensures a flawless finish without weighing hair down.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 59
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Styling Products",
+        "sub": "Hairsprays"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/137861/shu-uemura-moya-hold-finishing-hair-spray-10oz-600.jpg?1723559381",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/137851/shu-uemura-moya-hold-finishing-hair-spray-10oz-600.jpg?1723559381"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "884486452443",
+    "status": "",
+    "companyName": {
+      "name": "Shu Uemura"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "Touchable finish\nDefines and controls hairstyles\nSuitable for colored hair\nLong-lasting hold"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Apply on dry, styled hair\nSpray 8 to 12 inches away from hair\nLayer product for enhanced control"
+      }
+    ],
+    "lineName": "Styling",
+    "isHidden": true
+  },
+  {
+    "product_name": "Kaze Wave - Curl Mousse 5oz",
+    "description": "Shu Uemura's Kaze Wave Mousse defines curls and waves with long-lasting, flexible hold, ensuring soft, frizz-free, and weightless hair.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 59
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Styling Products",
+        "sub": "Curl Definition"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/137860/shu-uemura-kaze-wave-curl-mousse-5oz-600.jpg?1723557166",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/137814/shu-uemura-kaze-wave-curl-mousse-5oz-600.jpg?1723557166",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/137849/shu-uemura-kaze-wave-curl-mousse-5oz-600.jpg?1723557166"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "3474636876822",
+    "status": "",
+    "companyName": {
+      "name": "Shu Uemura"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "Flexible-hold\nSoft finish\nProvides natural shine\nProtects against heat damage\nResists humidity\nIdeal for obtaining frizz-free waves, curls, braids and updos"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Apply on towel-dried hair\nScrunch product into curls\nStyle as desired or let air-dry"
+      }
+    ],
+    "lineName": "Styling",
+    "isHidden": true
+  },
+  {
+    "product_name": "Awa Volume - Volume Mousse 5oz",
+    "description": "Shu Uemura's Awa Volume Mousse provides maximum body and root lift, offering a silky finish and long-lasting hold for effortlessly voluminous hair.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 59
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Styling Products",
+        "sub": "Mousses"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/137811/shu-uemura-awa-volume-volume-mousse-5oz-600.jpg?1723555557",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/137812/shu-uemura-awa-volume-volume-mousse-5oz-600.jpg?1723555558",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/137813/shu-uemura-awa-volume-volume-mousse-5oz-600.jpg?1723555566",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/137848/shu-uemura-awa-volume-volume-mousse-5oz-600.jpg?1723556348"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "3474636876815",
+    "status": "",
+    "companyName": {
+      "name": "Shu Uemura"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "Volume and root lifter mousse\nDoes not leave any crunchy residue\nSmooth touch\nMedium hold\nProvides a natural shine"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Apply on towel-dried hair\nScrunch product into hair\nStyle as desired or let air dry"
+      }
+    ],
+    "lineName": "Styling",
+    "isHidden": true
+  },
+  {
+    "product_name": "Color Sealer Spray 1.5oz",
+    "description": "Shu Uemura's Color Sealer Spray locks in hair color, keeping it vibrant for up to 6 weeks. This spray adds shine and hydrates, for healthier hair.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 33
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Travel",
+        "sub": "Travel Size"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/135596/shu-uemura-color-sealer-spray-1-5oz-600.jpg?1720014903",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/134965/shu-uemura-color-sealer-spray-1-5oz-600.jpg?1720014903",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/134966/shu-uemura-color-sealer-spray-1-5oz-600.jpg?1720014903"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "3474637213152",
+    "status": "",
+    "companyName": {
+      "name": "Shu Uemura"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "Prevents color fading\nHelps with hair manageability\nNourishes and hydrates\nProvides heat and UV protection\nInfused with Sake Kasu and niacinamide"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Apply on towel-dried hair\nSpray evenly"
+      }
+    ],
+    "lineName": "Color Lustre",
+    "isHidden": true
+  },
+  {
+    "product_name": "Brilliant Glaze Conditioner 1.4oz",
+    "description": "The brilliant glaze Conditioner is designed to treat and preserve the hair color and health. Its light formula is ideal for daily use to illuminate and vivify the color. The hair gets an incredible shine!",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 31
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Travel",
+        "sub": "Travel Size"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/135598/shu-uemura-brilliant-glaze-conditioner-1-4oz-600.jpg?1720014999",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/134959/shu-uemura-brilliant-glaze-conditioner-1-4oz-600.jpg?1720014999",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/135597/shu-uemura-brilliant-glaze-conditioner-1-4oz-600.jpg?1720014999"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "3474637213190",
+    "status": "",
+    "companyName": {
+      "name": "Shu Uemura"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "For colored hair\nSulfate-free\nRefined lipid extract\nMusk rose oil extract\nGoji berry extract\nPrevents color fading\nBrings shine"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "After shampooing\nApply\nMassage into damp hair\nRinse thoroughly"
+      }
+    ],
+    "lineName": "Color Lustre",
+    "isHidden": true
+  },
+  {
+    "product_name": "Brilliant Glaze Shampoo 2.5oz",
+    "description": "The Color Luster shampoo effectively prevents color from fading thanks to its unique protective formula. It act by gently purify to respect the scalp and protect hair fiber from aggression.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 26
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Travel",
+        "sub": "Travel Size"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/135599/shu-uemura-brilliant-glaze-shampoo-2-5oz-600.jpg?1720015054",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/134956/shu-uemura-brilliant-glaze-shampoo-2-5oz-600.jpg?1720015054",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/134957/shu-uemura-brilliant-glaze-shampoo-2-5oz-600.jpg?1720015054"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "3474637213206",
+    "status": "",
+    "companyName": {
+      "name": "Shu Uemura"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "For colored hair\nRefined lipid extract\nMusk rose oil extract\nPrevents color fading\nBrings shine"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Apply to wet hair\nMassage\nRinse thoroughly"
+      }
+    ],
+    "lineName": "Color Lustre",
+    "isHidden": true
+  },
+  {
+    "product_name": "Full and mini size of 531NC file",
+    "description": "These two-sided foot files with oak wood handles effectively remove dead skin and calluses, leaving your feet feeling softer and smoother.",
+    "item_no": "",
+    "sale_price": {
+      "sale": 5.99
+    },
+    "price": {
+      "regular": 6.99
+    },
+    "categories": [
+      {
+        "main": "Tools",
+        "name": "Scissors Blades",
+        "sub": "Razors And Blades"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/141610/silk-line-full-and-mini-size-of-531nc-file-600.jpg?1729106299"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "774816001833",
+    "status": "",
+    "companyName": {
+      "name": "Silk Line"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "Medium grit on one side and coarse grit on the other\nThe mini file has the same grit as the large file"
+      }
+    ],
+    "lineName": "Pedicure Equipment",
+    "isHidden": true
+  },
+  {
+    "product_name": "Wet/Dry foot file",
+    "description": "This two-sided file offers a possibility of use on dry or wet skin, leaving feet smooth and without callus. In addition to being extra-durable, this tool is perfect for home using as well as in institutions.",
+    "item_no": "",
+    "sale_price": {
+      "sale": 5.99
+    },
+    "price": {
+      "regular": 6.49
+    },
+    "categories": [
+      {
+        "main": "Nails",
+        "name": "Tools And Accessories",
+        "sub": "Foot Files"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/112878/silk-line-wet-dry-foot-file-600.jpg?1599685147"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "774816030499",
+    "status": "",
+    "companyName": {
+      "name": "Silk Line"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "Two-sided file\nThick wood handle\nPossibility of use on dry and/or wet skin\nExtra-durable: Can last up to 3 months\nSanitizable: Possibility of using any chemical sanitizer\nUse dry: Coarse side turns calluses into dust\nUse wet: Smooth side leaves the skin smooth and soft\nPerfect for home and in professional institution use"
+      },
+      {
+        "key": "HOME USE",
+        "value": "Use rough side on dry skin using rapid back-and-forth motions to remove calluses\nRinse feet (without drying)\nWet the file\nUse smooth side to smoothen the skin"
+      }
+    ],
+    "lineName": "Pedicure Equipment",
+    "isHidden": true
+  },
+  {
+    "product_name": "Two-sided foot file with oak wood handle",
+    "description": "This two-sided file is perfect for home use to maintain your feet soft and callus free. It has a side with coarse grain to remove impurities and an other side with medium grain to smooth effectively.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 4.99
+    },
+    "categories": [
+      {
+        "main": "Nails",
+        "name": "Tools And Accessories",
+        "sub": "Foot Files"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/112879/silk-line-two-sided-foot-file-with-oak-wood-handle-600.jpg?1599685148"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "774816030239",
+    "status": "",
+    "companyName": {
+      "name": "Silk Line"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "Two-sided file\nOak wood handle\nOne side medium grain, the other side coarse grain\nPerfect for home use"
+      }
+    ],
+    "lineName": "Pedicure Equipment",
+    "isHidden": true
+  },
+  {
+    "product_name": "Cuticle pusher / spoon nail cleaner",
+    "description": "This tool is a real 2-in-1! It allows to perform several actions with only one instrument, quickly achieving your nail preparation before manicure or pedicure.",
+    "item_no": "",
+    "sale_price": {
+      "sale": 12.99
+    },
+    "price": {
+      "regular": 14.99
+    },
+    "categories": [
+      {
+        "main": "Nails",
+        "name": "Tools And Accessories",
+        "sub": "Cuticle Pushers"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/112890/silk-line-cuticle-pusher-spoon-nail-cleaner-600.jpg?1599685155"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "087768720166",
+    "status": "",
+    "companyName": {
+      "name": "Silk Line"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "Stainless Steel\nSterilizable\nTextured handle ensures a firm and comfortable grip for precise control"
+      },
+      {
+        "key": "CURVED END FEATURES",
+        "value": "Shapes the cuticle"
+      },
+      {
+        "key": "SPOON END FEATURES",
+        "value": "Cleans under nail"
+      }
+    ],
+    "lineName": "Manicure Equipment",
+    "isHidden": true
+  },
+  {
+    "product_name": "Universal 9 watt UV bulbs",
+    "description": null,
+    "item_no": "",
+    "sale_price": {
+      "sale": 23.99
+    },
+    "price": {
+      "regular": 28.99
+    },
+    "categories": [
+      {
+        "main": "Nails",
+        "name": "Tools And Accessories",
+        "sub": "Lamps"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/111032/silk-line-universal-9-watt-uv-bulbs-600.jpg?1599683906"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "774816020681",
+    "status": "",
+    "companyName": {
+      "name": "Silk Line"
+    },
+    "priceType": "single",
+    "details": [],
+    "lineName": "Uv Lamp",
+    "isHidden": true
+  },
+  {
+    "product_name": "4\" cuticle nipper (2.5mm quarter jaw)",
+    "description": "These nippers are the perfect tool for manicures and pecidures that requires cuticles precise cutting. The double springs and the box joint make these clamps an incomparable instrument of durability and strength. In addition, its sharp blades offer a superior performance to any other tool!",
+    "item_no": "",
+    "sale_price": {
+      "sale": 21.99
+    },
+    "price": {
+      "regular": 24.99
+    },
+    "categories": [
+      {
+        "main": "Nails",
+        "name": "Tools And Accessories",
+        "sub": "Cuticle Nippers"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/112883/silk-line-4-cuticle-nipper-2-5mm-quarter-jaw-600.jpg?1599685151"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "087768720029",
+    "status": "",
+    "companyName": {
+      "name": "Silk Line"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "4\" Cuticle nipper\n2.5mm quarter jaw\nStainless Steel\nSterilizable\nDouble spring for smooth action\nBox joint for strength, precision and durability\nSharp blade for superior cutting performance\nPerfect for trimming cuticles\nSatin finish"
+      }
+    ],
+    "lineName": "Manicure Equipment",
+    "isHidden": true
+  },
+  {
+    "product_name": "4\" cuticle nipper (5mm half jaw)",
+    "description": "These nippers are the perfect tool for manicures and pecidures that requires cuticles precise cutting. The double springs and the box joint make these clamps an incomparable instrument of durability and strength. In addition, its sharp blades offer a superior performance to any other tool!",
+    "item_no": "",
+    "sale_price": {
+      "sale": 21.99
+    },
+    "price": {
+      "regular": 24.99
+    },
+    "categories": [
+      {
+        "main": "Nails",
+        "name": "Tools And Accessories",
+        "sub": "Cuticle Nippers"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/112882/silk-line-4-cuticle-nipper-5mm-half-jaw-600.jpg?1599685150"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "087768720012",
+    "status": "",
+    "companyName": {
+      "name": "Silk Line"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "4\" Cuticle nipper\n5mm half jaw\nStainless Steel\nSterilizable\nDouble spring for smooth action\nBox joint for strength, precision and durability\nSharp blade for superior cutting performance\nPerfect for trimming cuticles\nSatin finish"
+      }
+    ],
+    "lineName": "Manicure Equipment",
+    "isHidden": true
+  },
+  {
+    "product_name": "5-1/2\" Heavy duty toenail nipper",
+    "description": "This heavy duty toenail nipper includes sharp blades and an ergonomic grip for maximum performance even on thicker nail. Its lockable handles and powerful barrel spring make this tool a must for pedicure care.",
+    "item_no": "",
+    "sale_price": {
+      "sale": 31.99
+    },
+    "price": {
+      "regular": 36.99
+    },
+    "categories": [
+      {
+        "main": "Nails",
+        "name": "Tools And Accessories",
+        "sub": "Nail Clippers"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/112887/silk-line-5-1-2-heavy-duty-toenail-nipper-600.jpg?1599685154"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "087768720067",
+    "status": "",
+    "companyName": {
+      "name": "Silk Line"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "5-1/2”\nSterilizable\nStainless Steel\nPowerful barrel spring\nSharp blades for superior cutting performance\nPerfect for extra thick toenails\nEasy-grip lockable handles"
+      }
+    ],
+    "lineName": "Pedicure Equipment",
+    "isHidden": true
+  },
+  {
+    "product_name": "Volumizing shampoo 33.8oz",
+    "description": "Volumizing shampoo invigorates and adds maximum volume to fine, color-treated hair. Its apple stem infused formula strengthens hair, thereby allowing a strong and healthy growth. For texturized hair.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 50
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Shampoos",
+        "sub": "Volumizing And Thickening"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145589/aloxxi-volumizing-shampoo-33-8oz-600.jpg?1731959562"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "846943002677",
+    "status": "",
+    "companyName": {
+      "name": "Aloxxi"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "Restores and improves hair's appearance\nProvides incredible body\nProtects hair color from fading\nSulfate, paraben, sodium chloride and gluten free\nNot tested on animals"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Apply on wet hair\nMassage\nRinse"
+      }
+    ],
+    "lineName": "Volumizing",
+    "isHidden": true
+  },
+  {
+    "product_name": "Violet shampoo 33.8oz",
+    "description": "This shampoo revives blonde hair and eliminates unwanted tones thanks to the intensely pigmented formula. This violet cleanser is suitable for blond, gray or white hair and gently purifies while providing hydration.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 50
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Shampoos",
+        "sub": "Blonde"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145587/aloxxi-violet-shampoo-33-8oz-600.jpg?1731958463",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/129593/aloxxi-violet-shampoo-33-8oz-600.jpg?1731958463"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "846943006170",
+    "status": "",
+    "companyName": {
+      "name": "Aloxxi"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURE",
+        "value": "Purple shampoo\nFor blond, gray and white hair\nNeutralizes brassiness\nProtects hair color"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Apply generously on damp hair\nLather and spread evenly\nLet sit for 2 to 5 minutes\nUse more often for an intense result"
+      }
+    ],
+    "lineName": "Violet Shampoo",
+    "isHidden": true
+  },
+  {
+    "product_name": "Hydrating shampoo 33.8oz",
+    "description": "Hydrating shampoo repairs and hydrates dry, color-treated hair. Its olive and avocado oil adds maximum shine to hair, while protecting them from the sun's drying out effects. For beautified, healthy hair.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 50
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Shampoos",
+        "sub": "Hydrating"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145580/aloxxi-hydrating-shampoo-33-8oz-600.jpg?1731957818"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "846943002158",
+    "status": "",
+    "companyName": {
+      "name": "Aloxxi"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "Strengthens, protects and nourishes hair from the inside out\nProtects hair color from fading\nAdds shine to hair\nSulfate, paraben, sodium chloride and gluten free\nNot tested on animals"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Apply on wet hair\nMassage\nRinse\nIf needed, reapply"
+      }
+    ],
+    "lineName": "Hydrating",
+    "isHidden": true
+  },
+  {
+    "product_name": "Clarifying shampoo 1.5oz",
+    "description": "Clarifying shampoo is specially designed to purify your hair while giving healthy looking hair. Its formula deep cleans to remove impurities from hard water, styling products, pool elements and environmental pollutants.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 6
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Shampoos",
+        "sub": "Clarifying"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/114173/aloxxi-clarifying-shampoo-1-5oz-600.jpg?1599686093"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "846943703253",
+    "status": "",
+    "companyName": {
+      "name": "Aloxxi"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "For silky hair\nEnriched with thyme, ginger root, neem leaf and dandelion\nEnriched with ColourCare Complex for color-treated hair"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Apply on wet hair\nMassage\nRinse"
+      }
+    ],
+    "lineName": "Clarifying",
+    "isHidden": true
+  },
+  {
+    "product_name": "Clarifying shampoo 10.1oz",
+    "description": "Clarifying shampoo is specially designed to purify your hair while giving healthy looking hair. Its formula deep cleans to remove impurities from hard water, styling products, pool elements and environmental pollutants.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 27
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Shampoos",
+        "sub": "Clarifying"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145509/aloxxi-clarifying-shampoo-10-1oz-600.jpg?1731953977"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "846943005760",
+    "status": "",
+    "companyName": {
+      "name": "Aloxxi"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "For silky hair\nEnriched with thyme, ginger root, neem leaf and dandelion\nEnriched with ColourCare Complex for color-treated hair"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Apply on wet hair\nMassage\nRinse"
+      }
+    ],
+    "lineName": "Clarifying",
+    "isHidden": true
+  },
+  {
+    "product_name": "Dry shampoo 4.5oz",
+    "description": "Aloxxi Dry shampoo refreshes and purifies hair between shampoos. Its formula enriched with natural ingredients eliminates all sebum accumulations left in hair, while providing volume.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 22
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Shampoos",
+        "sub": "Dry Shampoo"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/108305/aloxxi-dry-shampoo-4-5oz-600.jpg?1599682117"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "846943006774",
+    "status": "",
+    "companyName": {
+      "name": "Aloxxi"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "For a well-being sensation to scalp\nClear formula,\nProtects from UV rays\nSulfate, paraben, sodium chloride and gluten free\nNot tested on animals"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Shake well\nSpray 6-8 inches from scalp\nLet dry and work with fingers\nBrush and style as desired"
+      }
+    ],
+    "lineName": "Volumizing",
+    "isHidden": true
+  },
+  {
+    "product_name": "E7 Anti-Frizz Shampoo 33.8oz",
+    "description": "Aloxxi E7's Anti-Frizz Shampoo helps tame frizz and restore your hair's natural shine. Formulated for dry and unruly hair, it provides intense hydration, restores vital moisture and elasticity, leaving your hair smooth, shiny, and more manageable.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 50
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Shampoos",
+        "sub": "Smoothing"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145517/aloxxi-e7-anti-frizz-shampoo-33-8oz-600.jpg?1731955544",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145518/aloxxi-e7-anti-frizz-shampoo-33-8oz-600.jpg?1731955546",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145519/aloxxi-e7-anti-frizz-shampoo-33-8oz-600.jpg?1731955547",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145520/aloxxi-e7-anti-frizz-shampoo-33-8oz-600.jpg?1731955549",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145521/aloxxi-e7-anti-frizz-shampoo-33-8oz-600.jpg?1731955550"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "846943011990",
+    "status": "",
+    "companyName": {
+      "name": "Aloxxi"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "Infused with Cupuaçu Butter, oils and antioxidants\nGently cleanses\nSuitable for colored hair"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Apply on wet hair\nGently massage and lather onto scalp and hair\nRinse\nRepeat"
+      }
+    ],
+    "lineName": "E7",
+    "isHidden": true
+  },
+  {
+    "product_name": "Violet shampoo 10.1oz",
+    "description": "This shampoo revives blonde hair and eliminates unwanted tones thanks to the intensely pigmented formula. This violet cleanser is suitable for blond, gray or white hair and gently purifies while providing hydration.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 27
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Shampoos",
+        "sub": "Blonde"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145586/aloxxi-violet-shampoo-10-1oz-600.jpg?1731958404",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/129592/aloxxi-violet-shampoo-10-1oz-600.jpg?1731958404"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "846943006163",
+    "status": "",
+    "companyName": {
+      "name": "Aloxxi"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURE",
+        "value": "Purple shampoo\nFor blond, gray and white hair\nNeutralizes brassiness\nProtects hair color"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Apply generously on damp hair\nLather and spread evenly\nLet sit for 2 to 5 minutes\nUse more often for an intense result"
+      }
+    ],
+    "lineName": "Violet Shampoo",
+    "isHidden": true
+  },
+  {
+    "product_name": "Hydrating conditioner 1.5oz",
+    "description": "Hydrating conditioner repairs and hydrates dry, color-treated hair. Its olive and avocado oil adds maximum shine to hair, while protecting them from the sun's drying out effects. For beautified, healthy hair.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 6
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Shampoos",
+        "sub": "Hydrating"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/113524/aloxxi-hydrating-conditioner-1-5oz-600.jpg?1599685626"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "846943002165",
+    "status": "",
+    "companyName": {
+      "name": "Aloxxi"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "Strengthens, protects and nourishes hair from the inside out\nProtects hair color from fading\nAdds shine to hair\nSulfate, paraben, sodium chloride and gluten free\nNot tested on animals"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "After shampooing, apply on towel-dried hair\nMassage\nRinse"
+      }
+    ],
+    "lineName": "Hydrating",
+    "isHidden": true
+  },
+  {
+    "product_name": "Clarifying shampoo 33.8oz",
+    "description": "Clarifying shampoo is specially designed to purify your hair while giving healthy looking hair. Its formula deep cleans to remove impurities from hard water, styling products, pool elements and environmental pollutants.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 50
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Shampoos",
+        "sub": "Clarifying"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145510/aloxxi-clarifying-shampoo-33-8oz-600.jpg?1731953990"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "846943005777",
+    "status": "",
+    "companyName": {
+      "name": "Aloxxi"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "For silky hair\nEnriched with thyme, ginger root, neem leaf and dandelion\nEnriched with ColourCare Complex for color-treated hair"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Apply on wet hair\nMassage\nRinse"
+      }
+    ],
+    "lineName": "Clarifying",
+    "isHidden": true
+  },
+  {
+    "product_name": "Reparative shampoo 33.8oz",
+    "description": "Reparative shampoo repairs and nourishes weak and damaged strands. Its reparative formula helps to reduce breakage, protect hair color from fading by helping to block damaging UV rays.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 50
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Shampoos",
+        "sub": "Damage Repair"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145599/aloxxi-reparative-shampoo-33-8oz-600.jpg?1732023289"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "846943005715",
+    "status": "",
+    "companyName": {
+      "name": "Aloxxi"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "Cleanse without stripping strands of nourishment\nInfused with Advanced Recovery Technology\nRestores hydration and strength\nSulfate free\nParaben free\nNot tested on animals"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Apply on wet hair\nLather\nRinse\nRepeat if necessary"
+      }
+    ],
+    "lineName": "Reparative",
+    "isHidden": true
+  },
+  {
+    "product_name": "Hydrating shampoo 10oz",
+    "description": "Hydrating shampoo repairs and hydrates dry, color-treated hair. Its olive and avocado oil adds maximum shine to hair, while protecting them from the sun's drying out effects. For beautified, healthy hair.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 27
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Shampoos",
+        "sub": "Hydrating"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145579/aloxxi-hydrating-shampoo-10oz-600.jpg?1731957808"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "846943002141",
+    "status": "",
+    "companyName": {
+      "name": "Aloxxi"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "Strengthens, protects and nourishes hair from the inside out\nProtects hair color from fading\nAdds shine to hair\nSulfate, paraben, sodium chloride and gluten free\nNot tested on animals"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Apply on wet hair\nMassage\nRinse\nIf needed, reapply"
+      }
+    ],
+    "lineName": "Hydrating",
+    "isHidden": true
+  },
+  {
+    "product_name": "Reparative Shampoo 10.1oz",
+    "description": "Reparative shampoo repairs and nourishes weak and damaged strands. Its reparative formula helps to reduce breakage, protect hair color from fading by helping to block damaging UV rays.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 27
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Shampoos",
+        "sub": "Damage Repair"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145598/aloxxi-reparative-shampoo-10-1oz-600.jpg?1732023261"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "846943005708",
+    "status": "",
+    "companyName": {
+      "name": "Aloxxi"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "Cleanse without stripping strands of nourishment\nInfused with Advanced Recovery Technology\nRestores hydration and strength\nSulfate free\nParaben free\nNot tested on animals"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Apply on wet hair\nLather\nRinse\nRepeat if necessary"
+      }
+    ],
+    "lineName": "Reparative",
+    "isHidden": true
+  },
+  {
+    "product_name": "Volumizing shampoo 10oz",
+    "description": "Volumizing shampoo invigorates and adds maximum volume to fine, color-treated hair. Its apple stem infused formula strengthens hair, thereby allowing a strong and healthy growth. For texturized hair.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 27
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Shampoos",
+        "sub": "Volumizing And Thickening"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145588/aloxxi-volumizing-shampoo-10oz-600.jpg?1731959552"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "846943002660",
+    "status": "",
+    "companyName": {
+      "name": "Aloxxi"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "Restores and improves hair's appearance\nProvides incredible body\nProtects hair color from fading\nSulfate, paraben, sodium chloride and gluten free\nNot tested on animals"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Apply on wet hair\nMassage\nRinse"
+      }
+    ],
+    "lineName": "Volumizing",
+    "isHidden": true
+  },
+  {
+    "product_name": "E7 Anti-Frizz Shampoo 10.1oz",
+    "description": "Aloxxi E7's Anti-Frizz Shampoo helps tame frizz and restore your hair's natural shine. Formulated for dry and unruly hair, it provides intense hydration, restores vital moisture and elasticity, leaving your hair smooth, shiny, and more manageable.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 30
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Shampoos",
+        "sub": "Smoothing"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145511/aloxxi-e7-anti-frizz-shampoo-10-1oz-600.jpg?1731955359",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145512/aloxxi-e7-anti-frizz-shampoo-10-1oz-600.jpg?1731955455",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145513/aloxxi-e7-anti-frizz-shampoo-10-1oz-600.jpg?1731955460",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145514/aloxxi-e7-anti-frizz-shampoo-10-1oz-600.jpg?1731955465",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145515/aloxxi-e7-anti-frizz-shampoo-10-1oz-600.jpg?1731955509",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145516/aloxxi-e7-anti-frizz-shampoo-10-1oz-600.jpg?1731955512"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "846943011983",
+    "status": "",
+    "companyName": {
+      "name": "Aloxxi"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "Infused with Cupuaçu Butter, oils and antioxidants\nGently cleanses\nSuitable for colored hair"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Apply on wet hair\nGently massage and lather onto scalp and hair\nRinse\nRepeat"
+      }
+    ],
+    "lineName": "E7",
+    "isHidden": true
+  },
+  {
+    "product_name": "Instaboost Color Shampoo - Golden Heiress 6.8oz",
+    "description": "Instaboost shampoo cleanses and moisturizes while refreshing golden tones in natural or color-treated hair. The highly pigmented formula delivers cumulative results that will add intensity to light blonde hair or subtle hues to dark blonde hair.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 25
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Shampoos",
+        "sub": "Color Enhancing"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145661/aloxxi-instaboost-color-shampoo-golden-heiress-6-8oz-600.jpg?1732030047",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/129073/aloxxi-instaboost-color-shampoo-golden-heiress-6-8oz-600.jpg?1732030047",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145662/aloxxi-instaboost-color-shampoo-golden-heiress-6-8oz-600.jpg?1732030046"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "846943010641",
+    "status": "",
+    "companyName": {
+      "name": "Aloxxi"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "Color-depositing shampoo\nFor light blonde to dark blonde hair\nNourishing formula\nContains calendula officinalis extract, sunflower oil and vegetable protein\nProtects against UVA/UVB rays\nCumulative results\nNo sulfate, phthalate, paraben, gluten\nNo DEA, MEA, TEA\nNo microbeads or talc\nNot tested on animals"
+      }
+    ],
+    "lineName": "Instaboost",
+    "isHidden": true
+  },
+  {
+    "product_name": "Bombshell Shampoo 2oz",
+    "description": "This shampoo amplifies hair and prepares it for blow-drying. The formula includes quartz powder which provides texture and shine, as well as sugar starch to speed up drying time. The hair has more body, shine and movement.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 6
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Shampoos",
+        "sub": "Texturizing"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145467/aloxxi-bombshell-shampoo-2oz-600.jpg?1731950154",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145468/aloxxi-bombshell-shampoo-2oz-600.jpg?1731950156",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145469/aloxxi-bombshell-shampoo-2oz-600.jpg?1731950159",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145470/aloxxi-bombshell-shampoo-2oz-600.jpg?1731950161",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145471/aloxxi-bombshell-shampoo-2oz-600.jpg?1731950163"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "846943006835",
+    "status": "",
+    "companyName": {
+      "name": "Aloxxi"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "Volumizing shampoo\nProvides texture\nBoosts shine\nHydrates without weighing down\nAccelerates drying time\nSuitable for colored hair\nProtects from UV rays\nNO sulfate, phthalates, paraben and sodium chloride\nNOT tested on animals"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Use on damp hair\nEmulsify then rinse\nRepeat shampoo then rinse thoroughly\nFollow with Bombshell Conditioner"
+      }
+    ],
+    "lineName": "Bombshell",
+    "isHidden": true
+  },
+  {
+    "product_name": "Bombshell shampoo 8oz",
+    "description": "This shampoo amplifies hair and prepares it for blow-drying. The formula includes quartz powder which provides texture and shine, as well as sugar starch to speed up drying time. The hair has more body, shine and movement.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 27
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Shampoos",
+        "sub": "Texturizing"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145466/aloxxi-bombshell-shampoo-8oz-600.jpg?1731950135",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145463/aloxxi-bombshell-shampoo-8oz-600.jpg?1731950135",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145462/aloxxi-bombshell-shampoo-8oz-600.jpg?1731950135",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145465/aloxxi-bombshell-shampoo-8oz-600.jpg?1731950135",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145464/aloxxi-bombshell-shampoo-8oz-600.jpg?1731950135"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "846943010757",
+    "status": "",
+    "companyName": {
+      "name": "Aloxxi"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "Volumizing shampoo\nProvides texture\nBoosts shine\nHydrates without weighing down\nAccelerates drying time\nSuitable for colored hair\nProtects from UV rays\nNO sulfate, phthalates, paraben and sodium chloride\nNOT tested on animals"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Use on damp hair\nEmulsify then rinse\nRepeat shampoo then rinse thoroughly\nFollow with Bombshell Conditioner"
+      }
+    ],
+    "lineName": "Bombshell",
+    "isHidden": true
+  },
+  {
+    "product_name": "E7 Anti-Frizz Shine Mist 3.4oz",
+    "description": "Aloxxi E7's Anti-Frizz Shine Mist not only tames frizz and enhances shine but also illuminates and protects your hair color, leaving you with a stunning and healthy finish.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 30
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Speciality Products",
+        "sub": "Anti Frizz"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145551/aloxxi-e7-anti-frizz-shine-mist-3-4oz-600.jpg?1731956398",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145552/aloxxi-e7-anti-frizz-shine-mist-3-4oz-600.jpg?1731956398",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145553/aloxxi-e7-anti-frizz-shine-mist-3-4oz-600.jpg?1731956402",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145554/aloxxi-e7-anti-frizz-shine-mist-3-4oz-600.jpg?1731956402",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145555/aloxxi-e7-anti-frizz-shine-mist-3-4oz-600.jpg?1731956404",
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145556/aloxxi-e7-anti-frizz-shine-mist-3-4oz-600.jpg?1731956405"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "846943012041",
+    "status": "",
+    "companyName": {
+      "name": "Aloxxi"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "Infused with nurturing oils and antioxidants\nExtra-fine mist\nAbsorbs quickly\nDoes not break down the hold of hairspray"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Apply on dry and styled hair as as finishing touch\nUse on damp hair for enhanced nourishment\nSpray from a distance of 6-8 in"
+      }
+    ],
+    "lineName": "E7",
+    "isHidden": true
+  },
+  {
+    "product_name": "Conditioning detangler 10oz",
+    "description": "Conditioning detangler hydrates, invigorates and detangles hair. Its lightweight formula repairs hair, leaving them with an incredibly silky texture.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 23
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Speciality Products",
+        "sub": "Detangler"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145583/aloxxi-conditioning-detangler-10oz-600.jpg?1731957854"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "846943002738",
+    "status": "",
+    "companyName": {
+      "name": "Aloxxi"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "Restores and improves hair's appearance\nProvides incredible body\nStrengthens, protects and nourishes hair from the inside out\nDoesn't weigh down hair\nImproves elasticity\nAdds incredible shine\nFacilitates styling\nProtects hair color from fading\nSulfate, paraben, sodium chloride and gluten free\nNot tested on animals"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "After shampooing, spray on towel-dried hair\nComb and style as usual"
+      }
+    ],
+    "lineName": "Hydrating",
+    "isHidden": true
+  },
+  {
+    "product_name": "Split Ends Mend 3.4oz",
+    "description": "Split Ends Mend serum is specially designed to repair split ends by binding them back togheter and provide nourishment to damaged stands. Its reparative formula smoothes and strengthens weak hair and protects against future damage.",
+    "item_no": "",
+    "sale_price": {
+      "sale": null
+    },
+    "price": {
+      "regular": 27
+    },
+    "categories": [
+      {
+        "main": "Hair Care",
+        "name": "Speciality Products",
+        "sub": "Split Ends"
+      }
+    ],
+    "imgs": [
+      "https://dl2dg4vx8rw69.cloudfront.net/images/products/145602/aloxxi-split-ends-mend-3-4oz-600.jpg?1732023329"
+    ],
+    "quantity_on_hand": 100,
+    "sku": "",
+    "manufacturer_part_number": "",
+    "bar_code_value": "846943004640",
+    "status": "",
+    "companyName": {
+      "name": "Aloxxi"
+    },
+    "priceType": "single",
+    "details": [
+      {
+        "key": "FEATURES",
+        "value": "Rapairs split ends and provides nourishmnet to damaged stands\nHelps to block damaging UV rays\nParaben free\nSulfate free\nNot tested on animals"
+      },
+      {
+        "key": "HOW TO USE",
+        "value": "Apply to towel-dried hair, focusing on the mid lengths and ends\nBlow dry & style as usual\nCan be used on dry hair to smooth and finish ends after styling"
+      }
+    ],
+    "lineName": "Reparative",
+    "isHidden": true
+  }
+]

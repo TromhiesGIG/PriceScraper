@@ -1,0 +1,769 @@
+2025-09-03 13:27:01,508 - INFO - \U0001f4c2 Loaded 21 products from data.json
+2025-09-03 13:27:01,509 - INFO - \U0001f9ea Testing with first 15 products...
+2025-09-03 13:27:01,509 - INFO - \U0001f680 Starting Google Shopping search for 15 products
+2025-09-03 13:27:01,509 - INFO - \U0001f3af Looking for prices from: coastalbeauty, beautywellness, shopempire, matandmax, shoptbbs, liviabeauty, aonebeauty, cosmeticworld
+2025-09-03 13:27:01,509 - INFO - \U0001f41b Debug mode: ON
+2025-09-03 13:27:01,509 - INFO - \u2728 NEW: Using RELAXED validation - trusting Google's matching!
+2025-09-03 13:27:01,509 - INFO - 
+================================================================================
+2025-09-03 13:27:01,509 - INFO - \U0001f4e6 PROCESSING PRODUCT 1/15
+2025-09-03 13:27:01,509 - INFO - Product: Aloxxi - Volumizing shampoo 33.8oz
+2025-09-03 13:27:01,509 - INFO - ================================================================================
+2025-09-03 13:27:01,509 - INFO - \U0001f50d Attempt 1: Searching for 'Aloxxi Volumizing shampoo 33.8oz'
+2025-09-03 13:27:03,840 - INFO - \U0001f310 Loading page with Selenium: https://www.google.com/search?udm=28&q=Aloxxi+Volumizing+shampoo+33.8oz&gl=ca&hl=en
+2025-09-03 13:27:08,644 - INFO - \U0001f4c4 Current URL: https://www.google.com/search?gl=ca&hl=en&q=Aloxxi+Volumizing+shampoo+33.8oz&ved=1t:238573&ictx=111&biw=1906&bih=643&dpr=1.5&sei=anq4aID3D6jSp84PvfSAsQI
+2025-09-03 13:27:08,644 - INFO - \U0001f4c4 Page title: Aloxxi Volumizing shampoo 33.8oz - Google Search
+2025-09-03 13:27:08,889 - INFO - \U0001f4f8 Screenshot saved: debug_html/screenshot_1756920428.png
+2025-09-03 13:27:09,020 - INFO - \U0001f41b Debug HTML saved to: debug_html\initial_page_1756920429.html
+2025-09-03 13:27:09,079 - INFO - \u2705 Found 108 elements with selector: a.plantl
+2025-09-03 13:27:12,549 - INFO - \U0001f41b Debug HTML saved to: debug_html\final_page_1756920432.html
+2025-09-03 13:27:12,565 - INFO - \u2705 Page appears to contain shopping data
+2025-09-03 13:27:15,525 - INFO - \U0001f4ca Page analysis for attempt 1:
+2025-09-03 13:27:15,525 - INFO -    Title: Aloxxi Volumizing shampoo 33.8oz - Google Search...
+2025-09-03 13:27:15,525 - INFO -    Has shopping results: True
+2025-09-03 13:27:15,525 - INFO -    Total links: 333
+2025-09-03 13:27:15,525 - INFO -    Price mentions: 39
+2025-09-03 13:27:15,525 - INFO -    Target domains found: ['matandmax.com', 'cosmeticworld.ca']
+2025-09-03 13:27:15,525 - INFO -    Sample prices: ['$40.00', '$53.62', '$90', '$80.00', '$65.96']
+2025-09-03 13:27:15,685 - INFO -    Found 27 results with: a.plantl.clickable-card.pla-unit-single-clickable-target
+2025-09-03 13:27:15,702 - INFO -    Found 108 results with: a.plantl
+2025-09-03 13:27:15,718 - INFO -    Found 54 results with: a[data-merchant-id]
+2025-09-03 13:27:15,731 - INFO -    Found 54 results with: a[data-offer-id]
+2025-09-03 13:27:15,741 - INFO -    Found 46 results with: a[href*="matandmax.com"]
+2025-09-03 13:27:15,814 - INFO -    Found 8 results with: a[href*="cosmeticworld.ca"]
+2025-09-03 13:27:15,814 - INFO - \U0001f4e6 Found 29 unique shopping results
+2025-09-03 13:27:15,815 - WARNING - \u274c No competitor data extracted from attempt 1
+2025-09-03 13:27:15,815 - INFO -    Trying next search variation...
+2025-09-03 13:27:20,815 - INFO - \U0001f50d Attempt 2: Searching for '"Aloxxi" "Volumizing shampoo 33.8oz"'
+2025-09-03 13:27:22,197 - INFO - \U0001f310 Loading page with Selenium: https://www.google.com/search?udm=28&q=%22Aloxxi%22+%22Volumizing+shampoo+33.8oz%22&gl=ca&hl=en
+2025-09-03 13:27:25,657 - INFO - \U0001f4c4 Current URL: https://www.google.com/search?udm=28&q=%22Aloxxi%22+%22Volumizing+shampoo+33.8oz%22&gl=ca&hl=en&sei=eXq4aI3eLIDcp84P4d6C0AM
+2025-09-03 13:27:25,657 - INFO - \U0001f4c4 Page title: "Aloxxi" "Volumizing shampoo 33.8oz" - Google Shopping
+2025-09-03 13:27:25,848 - INFO - \U0001f4f8 Screenshot saved: debug_html/screenshot_1756920445.png
+2025-09-03 13:27:26,019 - INFO - \U0001f41b Debug HTML saved to: debug_html\initial_page_1756920446.html
+2025-09-03 13:27:26,096 - INFO - \u2705 Found 24 elements with selector: a.plantl
+2025-09-03 13:27:30,054 - INFO - \U0001f41b Debug HTML saved to: debug_html\final_page_1756920450.html
+2025-09-03 13:27:30,073 - INFO - \u2705 Page appears to contain shopping data
+2025-09-03 13:27:32,995 - INFO - \U0001f4ca Page analysis for attempt 2:
+2025-09-03 13:27:32,996 - INFO -    Title: "Aloxxi" "Volumizing shampoo 33.8oz" - Google Shopping...
+2025-09-03 13:27:32,996 - INFO -    Has shopping results: True
+2025-09-03 13:27:32,996 - INFO -    Total links: 191
+2025-09-03 13:27:32,996 - INFO -    Price mentions: 72
+2025-09-03 13:27:32,996 - INFO -    Target domains found: ['matandmax.com']
+2025-09-03 13:27:32,996 - INFO -    Sample prices: ['$40.00', '$135.24', '$123', '$55', '$125']
+2025-09-03 13:27:33,261 - INFO -    Found 6 results with: a.plantl.clickable-card.pla-unit-single-clickable-target
+2025-09-03 13:27:33,273 - INFO -    Found 24 results with: a.plantl
+2025-09-03 13:27:33,291 - INFO -    Found 18 results with: a[data-merchant-id]
+2025-09-03 13:27:33,305 - INFO -    Found 18 results with: a[data-offer-id]
+2025-09-03 13:27:33,319 - INFO -    Found 12 results with: a[href*="matandmax.com"]
+2025-09-03 13:27:33,419 - INFO - \U0001f4e6 Found 6 unique shopping results
+2025-09-03 13:27:33,420 - INFO - \u2705 ACCEPTED matandmax: $50.0 (pos 1)
+2025-09-03 13:27:33,420 - INFO - \u2705 ACCEPTED matandmax: $48.6 (pos 3)
+2025-09-03 13:27:33,420 - INFO - \u2705 Found competitor data, using this search
+2025-09-03 13:27:33,420 - INFO - \u2705 Final result - matandmax: $48.6
+2025-09-03 13:27:33,420 - INFO - \U0001f3af Total competitors found: 1
+2025-09-03 13:27:33,421 - INFO - \U0001f4ca Product 1 complete: Found 2/8 competitor prices
+2025-09-03 13:27:33,421 - INFO - \u23f3 Waiting 21.3s before next product...
+2025-09-03 13:27:54,771 - INFO - 
+================================================================================
+2025-09-03 13:27:54,771 - INFO - \U0001f4e6 PROCESSING PRODUCT 2/15
+2025-09-03 13:27:54,771 - INFO - Product: Aloxxi - Violet shampoo 33.8oz
+2025-09-03 13:27:54,771 - INFO - ================================================================================
+2025-09-03 13:27:54,771 - INFO - \U0001f50d Attempt 1: Searching for 'Aloxxi Violet shampoo 33.8oz'
+2025-09-03 13:27:56,120 - INFO - \U0001f310 Loading page with Selenium: https://www.google.com/search?udm=28&q=Aloxxi+Violet+shampoo+33.8oz&gl=ca&hl=en
+2025-09-03 13:28:00,620 - INFO - \U0001f4c4 Current URL: https://www.google.com/search?gl=ca&hl=en&q=Aloxxi+Violet+shampoo+33.8oz&ved=1t:238573&ictx=111&biw=1906&bih=643&dpr=1.5&sei=nnq4aKuBG43Fp84P4onkqAs
+2025-09-03 13:28:00,620 - INFO - \U0001f4c4 Page title: Aloxxi Violet shampoo 33.8oz - Google Search
+2025-09-03 13:28:00,968 - INFO - \U0001f4f8 Screenshot saved: debug_html/screenshot_1756920480.png
+2025-09-03 13:28:01,162 - INFO - \U0001f41b Debug HTML saved to: debug_html\initial_page_1756920481.html
+2025-09-03 13:28:01,237 - INFO - \u2705 Found 135 elements with selector: a.plantl
+2025-09-03 13:28:07,251 - INFO - \U0001f41b Debug HTML saved to: debug_html\final_page_1756920487.html
+2025-09-03 13:28:07,267 - INFO - \u2705 Page appears to contain shopping data
+2025-09-03 13:28:10,279 - INFO - \U0001f4ca Page analysis for attempt 1:
+2025-09-03 13:28:10,279 - INFO -    Title: Aloxxi Violet shampoo 33.8oz - Google Search...
+2025-09-03 13:28:10,279 - INFO -    Has shopping results: True
+2025-09-03 13:28:10,279 - INFO -    Total links: 323
+2025-09-03 13:28:10,279 - INFO -    Price mentions: 31
+2025-09-03 13:28:10,279 - INFO -    Target domains found: ['beautywellness.ca', 'matandmax.com', 'liviabeauty.ca']
+2025-09-03 13:28:10,279 - INFO -    Sample prices: ['$40.00', '$35.61', '$154.47', '$80.00', '$15.99']
+2025-09-03 13:28:10,429 - INFO -    Found 27 results with: a.plantl.clickable-card.pla-unit-single-clickable-target
+2025-09-03 13:28:10,438 - INFO -    Found 135 results with: a.plantl
+2025-09-03 13:28:10,449 - INFO -    Found 81 results with: a[data-merchant-id]
+2025-09-03 13:28:10,458 - INFO -    Found 81 results with: a[data-offer-id]
+2025-09-03 13:28:10,471 - INFO -    Found 52 results with: a[href*="matandmax.com"]
+2025-09-03 13:28:10,484 - INFO -    Found 5 results with: a[href*="beautywellness.ca"]
+2025-09-03 13:28:10,520 - INFO -    Found 5 results with: a[href*="liviabeauty.ca"]
+2025-09-03 13:28:10,539 - INFO - \U0001f4e6 Found 29 unique shopping results
+2025-09-03 13:28:10,539 - INFO - \u2705 ACCEPTED matandmax: $50.0 (pos 1)
+2025-09-03 13:28:10,539 - INFO - \u2705 ACCEPTED matandmax: $27.0 (pos 8)
+2025-09-03 13:28:10,540 - INFO - \u2705 ACCEPTED matandmax: $15.99 (pos 10)
+2025-09-03 13:28:10,540 - INFO - \u2705 ACCEPTED liviabeauty: $58.0 (pos 13)
+2025-09-03 13:28:10,540 - INFO - \u2705 Found competitor data, using this search
+2025-09-03 13:28:10,540 - INFO - \u2705 Final result - matandmax: $15.99
+2025-09-03 13:28:10,540 - INFO - \u2705 Final result - liviabeauty: $58.0
+2025-09-03 13:28:10,540 - INFO - \U0001f3af Total competitors found: 2
+2025-09-03 13:28:10,541 - INFO - \U0001f4ca Product 2 complete: Found 3/8 competitor prices
+2025-09-03 13:28:10,541 - INFO - \u23f3 Waiting 24.0s before next product...
+2025-09-03 13:28:34,587 - INFO - 
+================================================================================
+2025-09-03 13:28:34,587 - INFO - \U0001f4e6 PROCESSING PRODUCT 3/15
+2025-09-03 13:28:34,588 - INFO - Product: Aloxxi - Hydrating shampoo 33.8oz
+2025-09-03 13:28:34,588 - INFO - ================================================================================
+2025-09-03 13:28:34,588 - INFO - \U0001f50d Attempt 1: Searching for 'Aloxxi Hydrating shampoo 33.8oz'
+2025-09-03 13:28:35,884 - INFO - \U0001f310 Loading page with Selenium: https://www.google.com/search?udm=28&q=Aloxxi+Hydrating+shampoo+33.8oz&gl=ca&hl=en
+2025-09-03 13:28:40,710 - INFO - \U0001f4c4 Current URL: https://www.google.com/search?gl=ca&hl=en&q=Aloxxi+Hydrating+shampoo+33.8oz&ved=1t:238573&ictx=111&biw=1906&bih=643&dpr=1.5&sei=xnq4aNWYKf6iptQPnZPo8Qk
+2025-09-03 13:28:40,711 - INFO - \U0001f4c4 Page title: Aloxxi Hydrating shampoo 33.8oz - Google Search
+2025-09-03 13:28:41,026 - INFO - \U0001f4f8 Screenshot saved: debug_html/screenshot_1756920520.png
+2025-09-03 13:28:41,158 - INFO - \U0001f41b Debug HTML saved to: debug_html\initial_page_1756920521.html
+2025-09-03 13:28:41,226 - INFO - \u2705 Found 88 elements with selector: a.plantl
+2025-09-03 13:28:45,131 - INFO - \U0001f41b Debug HTML saved to: debug_html\final_page_1756920525.html
+2025-09-03 13:28:45,146 - INFO - \u2705 Page appears to contain shopping data
+2025-09-03 13:28:48,033 - INFO - \U0001f4ca Page analysis for attempt 1:
+2025-09-03 13:28:48,033 - INFO -    Title: Aloxxi Hydrating shampoo 33.8oz - Google Search...
+2025-09-03 13:28:48,033 - INFO -    Has shopping results: True
+2025-09-03 13:28:48,033 - INFO -    Total links: 296
+2025-09-03 13:28:48,033 - INFO -    Price mentions: 32
+2025-09-03 13:28:48,033 - INFO -    Target domains found: ['matandmax.com', 'cosmeticworld.ca']
+2025-09-03 13:28:48,033 - INFO -    Sample prices: ['$40.00', '$59', '$272', '$90', '$80.00']
+2025-09-03 13:28:48,159 - INFO -    Found 22 results with: a.plantl.clickable-card.pla-unit-single-clickable-target
+2025-09-03 13:28:48,167 - INFO -    Found 88 results with: a.plantl
+2025-09-03 13:28:48,176 - INFO -    Found 44 results with: a[data-merchant-id]
+2025-09-03 13:28:48,184 - INFO -    Found 44 results with: a[data-offer-id]
+2025-09-03 13:28:48,193 - INFO -    Found 38 results with: a[href*="matandmax.com"]
+2025-09-03 13:28:48,279 - INFO -    Found 8 results with: a[href*="cosmeticworld.ca"]
+2025-09-03 13:28:48,279 - INFO - \U0001f4e6 Found 23 unique shopping results
+2025-09-03 13:28:48,279 - WARNING - \u274c No competitor data extracted from attempt 1
+2025-09-03 13:28:48,280 - INFO -    Trying next search variation...
+2025-09-03 13:28:53,280 - INFO - \U0001f50d Attempt 2: Searching for '"Aloxxi" "Hydrating shampoo 33.8oz"'
+2025-09-03 13:28:54,589 - INFO - \U0001f310 Loading page with Selenium: https://www.google.com/search?udm=28&q=%22Aloxxi%22+%22Hydrating+shampoo+33.8oz%22&gl=ca&hl=en
+2025-09-03 13:28:58,644 - INFO - \U0001f4c4 Current URL: https://www.google.com/search?gl=ca&hl=en&q=%22Aloxxi%22+%22Hydrating+shampoo+33.8oz%22&ved=1t:238573&ictx=111&biw=1906&bih=643&dpr=1.5&sei=2Hq4aMaxBv65wN4PnoqT6A4
+2025-09-03 13:28:58,645 - INFO - \U0001f4c4 Page title: "Aloxxi" "Hydrating shampoo 33.8oz" - Google Search
+2025-09-03 13:28:58,872 - INFO - \U0001f4f8 Screenshot saved: debug_html/screenshot_1756920538.png
+2025-09-03 13:28:59,130 - INFO - \U0001f41b Debug HTML saved to: debug_html\initial_page_1756920539.html
+2025-09-03 13:28:59,255 - INFO - \u2705 Found 116 elements with selector: a.plantl
+2025-09-03 13:29:03,077 - INFO - \U0001f41b Debug HTML saved to: debug_html\final_page_1756920543.html
+2025-09-03 13:29:03,112 - INFO - \u2705 Page appears to contain shopping data
+2025-09-03 13:29:06,146 - INFO - \U0001f4ca Page analysis for attempt 2:
+2025-09-03 13:29:06,146 - INFO -    Title: "Aloxxi" "Hydrating shampoo 33.8oz" - Google Search...
+2025-09-03 13:29:06,146 - INFO -    Has shopping results: True
+2025-09-03 13:29:06,146 - INFO -    Total links: 306
+2025-09-03 13:29:06,146 - INFO -    Price mentions: 63
+2025-09-03 13:29:06,147 - INFO -    Target domains found: ['beautywellness.ca', 'matandmax.com', 'liviabeauty.ca', 'cosmeticworld.ca']
+2025-09-03 13:29:06,147 - INFO -    Sample prices: ['$40.00', '$28.86', '$90', '$17.57', '$57.34']
+2025-09-03 13:29:06,345 - INFO -    Found 29 results with: a.plantl.clickable-card.pla-unit-single-clickable-target
+2025-09-03 13:29:06,358 - INFO -    Found 116 results with: a.plantl
+2025-09-03 13:29:06,371 - INFO -    Found 58 results with: a[data-merchant-id]
+2025-09-03 13:29:06,393 - INFO -    Found 58 results with: a[data-offer-id]
+2025-09-03 13:29:06,417 - INFO -    Found 30 results with: a[href*="matandmax.com"]
+2025-09-03 13:29:06,440 - INFO -    Found 4 results with: a[href*="beautywellness.ca"]
+2025-09-03 13:29:06,498 - INFO -    Found 16 results with: a[href*="liviabeauty.ca"]
+2025-09-03 13:29:06,529 - INFO -    Found 4 results with: a[href*="cosmeticworld.ca"]
+2025-09-03 13:29:06,529 - INFO - \U0001f4e6 Found 32 unique shopping results
+2025-09-03 13:29:06,529 - WARNING - \u274c No competitor data extracted from attempt 2
+2025-09-03 13:29:06,529 - INFO -    Trying next search variation...
+2025-09-03 13:29:11,530 - INFO - \U0001f50d Attempt 3: Searching for 'Hydrating shampoo 33.8oz Aloxxi'
+2025-09-03 13:29:12,836 - INFO - \U0001f310 Loading page with Selenium: https://www.google.com/search?udm=28&q=Hydrating+shampoo+33.8oz+Aloxxi&gl=ca&hl=en
+2025-09-03 13:29:16,348 - INFO - \U0001f4c4 Current URL: https://www.google.com/search?gl=ca&hl=en&q=Hydrating+shampoo+33.8oz+Aloxxi&ved=1t:238573&ictx=111&biw=1906&bih=643&dpr=1.5&sei=6nq4aL-GDaTep84PwZHf0Ag
+2025-09-03 13:29:16,348 - INFO - \U0001f4c4 Page title: Hydrating shampoo 33.8oz Aloxxi - Google Search
+2025-09-03 13:29:16,618 - INFO - \U0001f4f8 Screenshot saved: debug_html/screenshot_1756920556.png
+2025-09-03 13:29:16,734 - INFO - \U0001f41b Debug HTML saved to: debug_html\initial_page_1756920556.html
+2025-09-03 13:29:16,790 - INFO - \u2705 Found 35 elements with selector: a.plantl
+2025-09-03 13:29:20,372 - INFO - \U0001f41b Debug HTML saved to: debug_html\final_page_1756920560.html
+2025-09-03 13:29:20,381 - INFO - \u2705 Page appears to contain shopping data
+2025-09-03 13:29:23,069 - INFO - \U0001f4ca Page analysis for attempt 3:
+2025-09-03 13:29:23,069 - INFO -    Title: Hydrating shampoo 33.8oz Aloxxi - Google Search...
+2025-09-03 13:29:23,069 - INFO -    Has shopping results: True
+2025-09-03 13:29:23,069 - INFO -    Total links: 192
+2025-09-03 13:29:23,069 - INFO -    Price mentions: 27
+2025-09-03 13:29:23,069 - INFO -    Target domains found: ['matandmax.com', 'cosmeticworld.ca']
+2025-09-03 13:29:23,069 - INFO -    Sample prices: ['$40.00', '$59', '$272', '$90', '$20.99']
+2025-09-03 13:29:23,168 - INFO -    Found 7 results with: a.plantl.clickable-card.pla-unit-single-clickable-target
+2025-09-03 13:29:23,175 - INFO -    Found 35 results with: a.plantl
+2025-09-03 13:29:23,182 - INFO -    Found 21 results with: a[data-merchant-id]
+2025-09-03 13:29:23,189 - INFO -    Found 21 results with: a[data-offer-id]
+2025-09-03 13:29:23,196 - INFO -    Found 21 results with: a[href*="matandmax.com"]
+2025-09-03 13:29:23,254 - INFO -    Found 5 results with: a[href*="cosmeticworld.ca"]
+2025-09-03 13:29:23,254 - INFO - \U0001f4e6 Found 13 unique shopping results
+2025-09-03 13:29:23,254 - INFO - \u2705 ACCEPTED matandmax: $50.0 (pos 1)
+2025-09-03 13:29:23,254 - INFO - \u2705 ACCEPTED cosmeticworld: $22.99 (pos 2)
+2025-09-03 13:29:23,254 - INFO - \u2705 ACCEPTED matandmax: $49.0 (pos 6)
+2025-09-03 13:29:23,256 - INFO - \u2705 Found competitor data, using this search
+2025-09-03 13:29:23,256 - INFO - \u2705 Final result - matandmax: $49.0
+2025-09-03 13:29:23,256 - INFO - \u2705 Final result - cosmeticworld: $22.99
+2025-09-03 13:29:23,256 - INFO - \U0001f3af Total competitors found: 2
+2025-09-03 13:29:23,256 - INFO - \U0001f4ca Product 3 complete: Found 3/8 competitor prices
+2025-09-03 13:29:23,257 - INFO - \u23f3 Waiting 17.6s before next product...
+2025-09-03 13:29:40,855 - INFO - 
+================================================================================
+2025-09-03 13:29:40,855 - INFO - \U0001f4e6 PROCESSING PRODUCT 4/15
+2025-09-03 13:29:40,855 - INFO - Product: Aloxxi - Clarifying shampoo 1.5oz
+2025-09-03 13:29:40,855 - INFO - ================================================================================
+2025-09-03 13:29:40,855 - INFO - \U0001f50d Attempt 1: Searching for 'Aloxxi Clarifying shampoo 1.5oz'
+2025-09-03 13:29:42,246 - INFO - \U0001f310 Loading page with Selenium: https://www.google.com/search?udm=28&q=Aloxxi+Clarifying+shampoo+1.5oz&gl=ca&hl=en
+2025-09-03 13:29:45,651 - INFO - \U0001f4c4 Current URL: https://www.google.com/search?gl=ca&hl=en&q=Aloxxi+Clarifying+shampoo+1.5oz&ved=1t:238573&ictx=111&biw=1906&bih=643&dpr=1.5&sei=B3u4aOfgIJqIptQPjYSI6QQ
+2025-09-03 13:29:45,651 - INFO - \U0001f4c4 Page title: Aloxxi Clarifying shampoo 1.5oz - Google Search
+2025-09-03 13:29:45,798 - INFO - \U0001f4f8 Screenshot saved: debug_html/screenshot_1756920585.png
+2025-09-03 13:29:45,834 - INFO - \U0001f41b Debug HTML saved to: debug_html\initial_page_1756920585.html
+2025-09-03 13:29:45,864 - INFO - \u2705 Found 45 elements with selector: a.plantl
+2025-09-03 13:29:48,909 - INFO - \U0001f41b Debug HTML saved to: debug_html\final_page_1756920588.html
+2025-09-03 13:29:48,913 - INFO - \u2705 Page appears to contain shopping data
+2025-09-03 13:29:51,552 - INFO - \U0001f4ca Page analysis for attempt 1:
+2025-09-03 13:29:51,552 - INFO -    Title: Aloxxi Clarifying shampoo 1.5oz - Google Search...
+2025-09-03 13:29:51,552 - INFO -    Has shopping results: True
+2025-09-03 13:29:51,552 - INFO -    Total links: 143
+2025-09-03 13:29:51,552 - INFO -    Price mentions: 18
+2025-09-03 13:29:51,552 - INFO -    Target domains found: ['matandmax.com']
+2025-09-03 13:29:51,552 - INFO -    Sample prices: ['$8.00', '$6.35', '$18.75', '$6.25', '$3']
+2025-09-03 13:29:51,604 - INFO -    Found 9 results with: a.plantl.clickable-card.pla-unit-single-clickable-target
+2025-09-03 13:29:51,609 - INFO -    Found 45 results with: a.plantl
+2025-09-03 13:29:51,613 - INFO -    Found 27 results with: a[data-merchant-id]
+2025-09-03 13:29:51,617 - INFO -    Found 27 results with: a[data-offer-id]
+2025-09-03 13:29:51,620 - INFO -    Found 33 results with: a[href*="matandmax.com"]
+2025-09-03 13:29:51,648 - INFO - \U0001f4e6 Found 11 unique shopping results
+2025-09-03 13:29:51,648 - INFO - \u2705 ACCEPTED matandmax: $6.0 (pos 1)
+2025-09-03 13:29:51,648 - INFO - \u2705 Found competitor data, using this search
+2025-09-03 13:29:51,648 - INFO - \u2705 Final result - matandmax: $6.0
+2025-09-03 13:29:51,649 - INFO - \U0001f3af Total competitors found: 1
+2025-09-03 13:29:51,649 - INFO - \U0001f4ca Product 4 complete: Found 2/8 competitor prices
+2025-09-03 13:29:51,649 - INFO - \u23f3 Waiting 20.1s before next product...
+2025-09-03 13:30:11,740 - INFO - 
+================================================================================
+2025-09-03 13:30:11,740 - INFO - \U0001f4e6 PROCESSING PRODUCT 5/15
+2025-09-03 13:30:11,740 - INFO - Product: Aloxxi - Clarifying shampoo 10.1oz
+2025-09-03 13:30:11,740 - INFO - ================================================================================
+2025-09-03 13:30:11,740 - INFO - \U0001f50d Attempt 1: Searching for 'Aloxxi Clarifying shampoo 10.1oz'
+2025-09-03 13:30:13,026 - INFO - \U0001f310 Loading page with Selenium: https://www.google.com/search?udm=28&q=Aloxxi+Clarifying+shampoo+10.1oz&gl=ca&hl=en
+2025-09-03 13:30:16,660 - INFO - \U0001f4c4 Current URL: https://www.google.com/search?udm=28&q=Aloxxi+Clarifying+shampoo+10.1oz&gl=ca&hl=en&sei=JHu4aK_zK8rEp84Pwv_u8QI
+2025-09-03 13:30:16,660 - INFO - \U0001f4c4 Page title: Aloxxi Clarifying shampoo 10.1oz - Google Shopping
+2025-09-03 13:30:16,835 - INFO - \U0001f4f8 Screenshot saved: debug_html/screenshot_1756920616.png
+2025-09-03 13:30:16,968 - INFO - \U0001f41b Debug HTML saved to: debug_html\initial_page_1756920616.html
+2025-09-03 13:30:22,294 - INFO - \u2705 Found 60 elements with selector: a.plantl
+2025-09-03 13:30:25,634 - INFO - \U0001f41b Debug HTML saved to: debug_html\final_page_1756920625.html
+2025-09-03 13:30:25,643 - INFO - \u2705 Page appears to contain shopping data
+2025-09-03 13:30:28,284 - INFO - \U0001f4ca Page analysis for attempt 1:
+2025-09-03 13:30:28,284 - INFO -    Title: Aloxxi Clarifying shampoo 10.1oz - Google Search...
+2025-09-03 13:30:28,284 - INFO -    Has shopping results: True
+2025-09-03 13:30:28,284 - INFO -    Total links: 177
+2025-09-03 13:30:28,284 - INFO -    Price mentions: 14
+2025-09-03 13:30:28,284 - INFO -    Target domains found: ['matandmax.com', 'cosmeticworld.ca']
+2025-09-03 13:30:28,284 - INFO -    Sample prices: ['$300', '$18.99', '$27.00', '$24.00', '$71.73']
+2025-09-03 13:30:28,358 - INFO -    Found 12 results with: a.plantl.clickable-card.pla-unit-single-clickable-target
+2025-09-03 13:30:28,366 - INFO -    Found 60 results with: a.plantl
+2025-09-03 13:30:28,372 - INFO -    Found 36 results with: a[data-merchant-id]
+2025-09-03 13:30:28,377 - INFO -    Found 36 results with: a[data-offer-id]
+2025-09-03 13:30:28,385 - INFO -    Found 28 results with: a[href*="matandmax.com"]
+2025-09-03 13:30:28,427 - INFO -    Found 10 results with: a[href*="cosmeticworld.ca"]
+2025-09-03 13:30:28,427 - INFO - \U0001f4e6 Found 14 unique shopping results
+2025-09-03 13:30:28,427 - INFO - \u2705 ACCEPTED matandmax: $27.0 (pos 1)
+2025-09-03 13:30:28,427 - INFO - \u2705 ACCEPTED cosmeticworld: $22.99 (pos 3)
+2025-09-03 13:30:28,427 - INFO - \u2705 ACCEPTED matandmax: $6.0 (pos 6)
+2025-09-03 13:30:28,427 - INFO - \u2705 ACCEPTED cosmeticworld: $18.99 (pos 10)
+2025-09-03 13:30:28,428 - INFO - \u2705 Found competitor data, using this search
+2025-09-03 13:30:28,428 - INFO - \u2705 Final result - matandmax: $6.0
+2025-09-03 13:30:28,428 - INFO - \u2705 Final result - cosmeticworld: $18.99
+2025-09-03 13:30:28,428 - INFO - \U0001f3af Total competitors found: 2
+2025-09-03 13:30:28,428 - INFO - \U0001f4ca Product 5 complete: Found 3/8 competitor prices
+2025-09-03 13:30:28,428 - INFO - \u23f3 Waiting 19.5s before next product...
+2025-09-03 13:30:47,879 - INFO - 
+================================================================================
+2025-09-03 13:30:47,879 - INFO - \U0001f4e6 PROCESSING PRODUCT 6/15
+2025-09-03 13:30:47,879 - INFO - Product: Aloxxi - Dry shampoo 4.5oz
+2025-09-03 13:30:47,879 - INFO - ================================================================================
+2025-09-03 13:30:47,879 - INFO - \U0001f50d Attempt 1: Searching for 'Aloxxi Dry shampoo 4.5oz'
+2025-09-03 13:30:49,218 - INFO - \U0001f310 Loading page with Selenium: https://www.google.com/search?udm=28&q=Aloxxi+Dry+shampoo+4.5oz&gl=ca&hl=en
+2025-09-03 13:30:53,969 - INFO - \U0001f4c4 Current URL: https://www.google.com/search?gl=ca&hl=en&q=Aloxxi+Dry+shampoo+4.5oz&ved=1t:238573&ictx=111&biw=1906&bih=643&dpr=1.5&sei=THu4aKPjBIHFp84Pl4TjmQw
+2025-09-03 13:30:53,969 - INFO - \U0001f4c4 Page title: Aloxxi Dry shampoo 4.5oz - Google Search
+2025-09-03 13:30:54,200 - INFO - \U0001f4f8 Screenshot saved: debug_html/screenshot_1756920653.png
+2025-09-03 13:30:54,320 - INFO - \U0001f41b Debug HTML saved to: debug_html\initial_page_1756920654.html
+2025-09-03 13:30:54,349 - INFO - \u2705 Found 25 elements with selector: a.plantl
+2025-09-03 13:30:59,678 - INFO - \U0001f41b Debug HTML saved to: debug_html\final_page_1756920659.html
+2025-09-03 13:30:59,685 - INFO - \u2705 Page appears to contain shopping data
+2025-09-03 13:31:02,320 - INFO - \U0001f4ca Page analysis for attempt 1:
+2025-09-03 13:31:02,320 - INFO -    Title: Aloxxi Dry shampoo 4.5oz - Google Search...
+2025-09-03 13:31:02,320 - INFO -    Has shopping results: True
+2025-09-03 13:31:02,320 - INFO -    Total links: 106
+2025-09-03 13:31:02,320 - INFO -    Price mentions: 13
+2025-09-03 13:31:02,320 - INFO -    Target domains found: ['matandmax.com']
+2025-09-03 13:31:02,320 - INFO -    Sample prices: ['$8.00', '$25.38', '$18.40', '$63', '$24.00']
+2025-09-03 13:31:02,389 - INFO -    Found 5 results with: a.plantl.clickable-card.pla-unit-single-clickable-target
+2025-09-03 13:31:02,393 - INFO -    Found 25 results with: a.plantl
+2025-09-03 13:31:02,397 - INFO -    Found 15 results with: a[data-merchant-id]
+2025-09-03 13:31:02,403 - INFO -    Found 15 results with: a[data-offer-id]
+2025-09-03 13:31:02,411 - INFO -    Found 12 results with: a[href*="matandmax.com"]
+2025-09-03 13:31:02,460 - INFO - \U0001f4e6 Found 7 unique shopping results
+2025-09-03 13:31:02,460 - INFO - \u2705 ACCEPTED matandmax: $22.0 (pos 1)
+2025-09-03 13:31:02,460 - INFO - \u2705 ACCEPTED matandmax: $8.0 (pos 4)
+2025-09-03 13:31:02,460 - INFO - \u2705 Found competitor data, using this search
+2025-09-03 13:31:02,460 - INFO - \u2705 Final result - matandmax: $8.0
+2025-09-03 13:31:02,460 - INFO - \U0001f3af Total competitors found: 1
+2025-09-03 13:31:02,461 - INFO - \U0001f4ca Product 6 complete: Found 2/8 competitor prices
+2025-09-03 13:31:02,461 - INFO - \u23f3 Waiting 21.1s before next product...
+2025-09-03 13:31:23,553 - INFO - 
+================================================================================
+2025-09-03 13:31:23,554 - INFO - \U0001f4e6 PROCESSING PRODUCT 7/15
+2025-09-03 13:31:23,554 - INFO - Product: Aloxxi - E7 Anti-Frizz Shampoo 33.8oz
+2025-09-03 13:31:23,554 - INFO - ================================================================================
+2025-09-03 13:31:23,554 - INFO - \U0001f50d Attempt 1: Searching for 'Aloxxi E7 Anti-Frizz Shampoo 33.8oz'
+2025-09-03 13:31:24,869 - INFO - \U0001f310 Loading page with Selenium: https://www.google.com/search?udm=28&q=Aloxxi+E7+Anti-Frizz+Shampoo+33.8oz&gl=ca&hl=en
+2025-09-03 13:31:28,387 - INFO - \U0001f4c4 Current URL: https://www.google.com/search?gl=ca&hl=en&q=Aloxxi+E7+Anti-Frizz+Shampoo+33.8oz&ved=1t:238573&ictx=111&biw=1906&bih=643&dpr=1.5&sei=bnu4aJ2IJJTbptQP3fOV8A8
+2025-09-03 13:31:28,387 - INFO - \U0001f4c4 Page title: Aloxxi E7 Anti-Frizz Shampoo 33.8oz - Google Search
+2025-09-03 13:31:28,627 - INFO - \U0001f4f8 Screenshot saved: debug_html/screenshot_1756920688.png
+2025-09-03 13:31:28,713 - INFO - \U0001f41b Debug HTML saved to: debug_html\initial_page_1756920688.html
+2025-09-03 13:31:28,754 - INFO - \u2705 Found 56 elements with selector: a.plantl
+2025-09-03 13:31:33,074 - INFO - \U0001f41b Debug HTML saved to: debug_html\final_page_1756920693.html
+2025-09-03 13:31:33,092 - INFO - \u2705 Page appears to contain shopping data
+2025-09-03 13:31:35,894 - INFO - \U0001f4ca Page analysis for attempt 1:
+2025-09-03 13:31:35,895 - INFO -    Title: Aloxxi E7 Anti-Frizz Shampoo 33.8oz - Google Search...
+2025-09-03 13:31:35,895 - INFO -    Has shopping results: True
+2025-09-03 13:31:35,895 - INFO -    Total links: 176
+2025-09-03 13:31:35,895 - INFO -    Price mentions: 20
+2025-09-03 13:31:35,895 - INFO -    Target domains found: ['matandmax.com']
+2025-09-03 13:31:35,895 - INFO -    Sample prices: ['$40.00', '$82.76', '$55.00', '$30.00', '$110.00']
+2025-09-03 13:31:36,014 - INFO -    Found 14 results with: a.plantl.clickable-card.pla-unit-single-clickable-target
+2025-09-03 13:31:36,021 - INFO -    Found 56 results with: a.plantl
+2025-09-03 13:31:36,029 - INFO -    Found 28 results with: a[data-merchant-id]
+2025-09-03 13:31:36,036 - INFO -    Found 28 results with: a[data-offer-id]
+2025-09-03 13:31:36,042 - INFO -    Found 43 results with: a[href*="matandmax.com"]
+2025-09-03 13:31:36,084 - INFO - \U0001f4e6 Found 21 unique shopping results
+2025-09-03 13:31:36,085 - INFO - \u2705 ACCEPTED matandmax: $49.0 (pos 19)
+2025-09-03 13:31:36,085 - INFO - \u2705 Found competitor data, using this search
+2025-09-03 13:31:36,085 - INFO - \u2705 Final result - matandmax: $49.0
+2025-09-03 13:31:36,085 - INFO - \U0001f3af Total competitors found: 1
+2025-09-03 13:31:36,085 - INFO - \U0001f4ca Product 7 complete: Found 2/8 competitor prices
+2025-09-03 13:31:36,085 - INFO - \u23f3 Waiting 15.2s before next product...
+2025-09-03 13:31:51,245 - INFO - 
+================================================================================
+2025-09-03 13:31:51,245 - INFO - \U0001f4e6 PROCESSING PRODUCT 8/15
+2025-09-03 13:31:51,245 - INFO - Product: Aloxxi - Violet shampoo 10.1oz
+2025-09-03 13:31:51,245 - INFO - ================================================================================
+2025-09-03 13:31:51,245 - INFO - \U0001f50d Attempt 1: Searching for 'Aloxxi Violet shampoo 10.1oz'
+2025-09-03 13:31:52,489 - INFO - \U0001f310 Loading page with Selenium: https://www.google.com/search?udm=28&q=Aloxxi+Violet+shampoo+10.1oz&gl=ca&hl=en
+2025-09-03 13:31:56,972 - INFO - \U0001f4c4 Current URL: https://www.google.com/search?gl=ca&hl=en&q=Aloxxi+Violet+shampoo+10.1oz&ved=1t:238573&ictx=111&biw=1906&bih=643&dpr=1.5&sei=i3u4aLnOB7zVp84P5KCTsAE
+2025-09-03 13:31:56,972 - INFO - \U0001f4c4 Page title: Aloxxi Violet shampoo 10.1oz - Google Search
+2025-09-03 13:31:57,232 - INFO - \U0001f4f8 Screenshot saved: debug_html/screenshot_1756920716.png
+2025-09-03 13:31:57,287 - INFO - \U0001f41b Debug HTML saved to: debug_html\initial_page_1756920717.html
+2025-09-03 13:31:57,313 - INFO - \u2705 Found 28 elements with selector: a.plantl
+2025-09-03 13:32:01,541 - INFO - \U0001f41b Debug HTML saved to: debug_html\final_page_1756920721.html
+2025-09-03 13:32:01,545 - INFO - \u2705 Page appears to contain shopping data
+2025-09-03 13:32:04,208 - INFO - \U0001f4ca Page analysis for attempt 1:
+2025-09-03 13:32:04,208 - INFO -    Title: Aloxxi Violet shampoo 10.1oz - Google Search...
+2025-09-03 13:32:04,208 - INFO -    Has shopping results: True
+2025-09-03 13:32:04,208 - INFO -    Total links: 113
+2025-09-03 13:32:04,208 - INFO -    Price mentions: 14
+2025-09-03 13:32:04,208 - INFO -    Target domains found: ['matandmax.com', 'cosmeticworld.ca']
+2025-09-03 13:32:04,208 - INFO -    Sample prices: ['$21.99', '$12.50', '$21.85', '$27.00', '$26.00']
+2025-09-03 13:32:04,289 - INFO -    Found 7 results with: a.plantl.clickable-card.pla-unit-single-clickable-target
+2025-09-03 13:32:04,296 - INFO -    Found 28 results with: a.plantl
+2025-09-03 13:32:04,302 - INFO -    Found 14 results with: a[data-merchant-id]
+2025-09-03 13:32:04,308 - INFO -    Found 14 results with: a[data-offer-id]
+2025-09-03 13:32:04,314 - INFO -    Found 18 results with: a[href*="matandmax.com"]
+2025-09-03 13:32:04,363 - INFO -    Found 4 results with: a[href*="cosmeticworld.ca"]
+2025-09-03 13:32:04,363 - INFO - \U0001f4e6 Found 9 unique shopping results
+2025-09-03 13:32:04,363 - WARNING - \u274c No competitor data extracted from attempt 1
+2025-09-03 13:32:04,364 - INFO -    Trying next search variation...
+2025-09-03 13:32:09,364 - INFO - \U0001f50d Attempt 2: Searching for '"Aloxxi" "Violet shampoo 10.1oz"'
+2025-09-03 13:32:10,793 - INFO - \U0001f310 Loading page with Selenium: https://www.google.com/search?udm=28&q=%22Aloxxi%22+%22Violet+shampoo+10.1oz%22&gl=ca&hl=en
+2025-09-03 13:32:14,291 - INFO - \U0001f4c4 Current URL: https://www.google.com/search?udm=28&q=%22Aloxxi%22+%22Violet+shampoo+10.1oz%22&gl=ca&hl=en&sei=mnu4aLnFFMWGptQP4YvTuQc
+2025-09-03 13:32:14,291 - INFO - \U0001f4c4 Page title: "Aloxxi" "Violet shampoo 10.1oz" - Google Shopping
+2025-09-03 13:32:14,564 - INFO - \U0001f4f8 Screenshot saved: debug_html/screenshot_1756920734.png
+2025-09-03 13:32:15,098 - INFO - \U0001f41b Debug HTML saved to: debug_html\initial_page_1756920735.html
+2025-09-03 13:32:16,020 - INFO - \u2705 Found 25 elements with selector: a.plantl
+2025-09-03 13:32:21,901 - INFO - \U0001f41b Debug HTML saved to: debug_html\final_page_1756920741.html
+2025-09-03 13:32:21,938 - INFO - \u2705 Page appears to contain shopping data
+2025-09-03 13:32:24,856 - INFO - \U0001f4ca Page analysis for attempt 2:
+2025-09-03 13:32:24,856 - INFO -    Title: "Aloxxi" "Violet shampoo 10.1oz" - Google Search...
+2025-09-03 13:32:24,856 - INFO -    Has shopping results: True
+2025-09-03 13:32:24,856 - INFO -    Total links: 132
+2025-09-03 13:32:24,856 - INFO -    Price mentions: 14
+2025-09-03 13:32:24,856 - INFO -    Target domains found: ['matandmax.com', 'cosmeticworld.ca']
+2025-09-03 13:32:24,856 - INFO -    Sample prices: ['$21.25', '$21.99', '$24.49', '$27.00', '$120.00']
+2025-09-03 13:32:24,990 - INFO -    Found 5 results with: a.plantl.clickable-card.pla-unit-single-clickable-target
+2025-09-03 13:32:24,996 - INFO -    Found 25 results with: a.plantl
+2025-09-03 13:32:25,002 - INFO -    Found 15 results with: a[data-merchant-id]
+2025-09-03 13:32:25,009 - INFO -    Found 15 results with: a[data-offer-id]
+2025-09-03 13:32:25,016 - INFO -    Found 13 results with: a[href*="matandmax.com"]
+2025-09-03 13:32:25,065 - INFO -    Found 5 results with: a[href*="cosmeticworld.ca"]
+2025-09-03 13:32:25,065 - INFO - \U0001f4e6 Found 8 unique shopping results
+2025-09-03 13:32:25,065 - INFO - \u2705 ACCEPTED matandmax: $27.0 (pos 1)
+2025-09-03 13:32:25,066 - INFO - \u2705 ACCEPTED matandmax: $15.99 (pos 4)
+2025-09-03 13:32:25,066 - INFO - \u2705 ACCEPTED cosmeticworld: $22.99 (pos 5)
+2025-09-03 13:32:25,066 - INFO - \u2705 Found competitor data, using this search
+2025-09-03 13:32:25,066 - INFO - \u2705 Final result - matandmax: $15.99
+2025-09-03 13:32:25,066 - INFO - \u2705 Final result - cosmeticworld: $22.99
+2025-09-03 13:32:25,066 - INFO - \U0001f3af Total competitors found: 2
+2025-09-03 13:32:25,067 - INFO - \U0001f4ca Product 8 complete: Found 3/8 competitor prices
+2025-09-03 13:32:25,067 - INFO - \u23f3 Waiting 16.7s before next product...
+2025-09-03 13:32:41,775 - INFO - 
+================================================================================
+2025-09-03 13:32:41,775 - INFO - \U0001f4e6 PROCESSING PRODUCT 9/15
+2025-09-03 13:32:41,775 - INFO - Product: Aloxxi - Hydrating conditioner 1.5oz
+2025-09-03 13:32:41,775 - INFO - ================================================================================
+2025-09-03 13:32:41,775 - INFO - \U0001f50d Attempt 1: Searching for 'Aloxxi Hydrating conditioner 1.5oz'
+2025-09-03 13:32:43,066 - INFO - \U0001f310 Loading page with Selenium: https://www.google.com/search?udm=28&q=Aloxxi+Hydrating+conditioner+1.5oz&gl=ca&hl=en
+2025-09-03 13:32:46,859 - INFO - \U0001f4c4 Current URL: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fudm%3D28%26q%3DAloxxi%2BHydrating%2Bconditioner%2B1.5oz%26gl%3Dca%26hl%3Den%26sei%3Dunu4aICbJeLFp84P242NqQc&hl=en&q=EhAmB_6oIyDgAFUW9ncMnxiLGLr34cUGIjBwlDj4yyMu-oIaz34bOxViEJbkV8z488hnlb6ghRWfvZXXYkpOqLP61Q3ZrwcHFfwyAVJaAUM
+2025-09-03 13:32:46,859 - INFO - \U0001f4c4 Page title: https://www.google.com/search?udm=28&q=Aloxxi+Hydrating+conditioner+1.5oz&gl=ca&hl=en&sei=unu4aICbJeLFp84P242NqQc
+2025-09-03 13:32:47,073 - INFO - \U0001f4f8 Screenshot saved: debug_html/screenshot_1756920766.png
+2025-09-03 13:32:47,079 - INFO - \U0001f41b Debug HTML saved to: debug_html\initial_page_1756920767.html
+2025-09-03 13:32:47,080 - ERROR - \U0001f6a8 Google is blocking our requests - CAPTCHA or unusual traffic detected
+2025-09-03 13:32:49,639 - WARNING - \u274c Failed to get response for attempt 1
+2025-09-03 13:32:49,639 - INFO - \U0001f50d Attempt 2: Searching for '"Aloxxi" "Hydrating conditioner 1.5oz"'
+2025-09-03 13:32:49,639 - INFO - \u23f3 Rate limiting: sleeping for 7.0 seconds...
+2025-09-03 13:32:57,867 - INFO - \U0001f310 Loading page with Selenium: https://www.google.com/search?udm=28&q=%22Aloxxi%22+%22Hydrating+conditioner+1.5oz%22&gl=ca&hl=en
+2025-09-03 13:33:01,258 - INFO - \U0001f4c4 Current URL: https://www.google.com/search?udm=28&q=%22Aloxxi%22+%22Hydrating+conditioner+1.5oz%22&gl=ca&hl=en&sei=yXu4aOTrF9inptQP0KWbUA
+2025-09-03 13:33:01,258 - INFO - \U0001f4c4 Page title: "Aloxxi" "Hydrating conditioner 1.5oz" - Google Shopping
+2025-09-03 13:33:01,541 - INFO - \U0001f4f8 Screenshot saved: debug_html/screenshot_1756920781.png
+2025-09-03 13:33:02,841 - INFO - \U0001f41b Debug HTML saved to: debug_html\initial_page_1756920782.html
+2025-09-03 13:33:02,877 - INFO - \u2705 Found 15 elements with selector: a.plantl
+2025-09-03 13:33:06,991 - INFO - \U0001f41b Debug HTML saved to: debug_html\final_page_1756920786.html
+2025-09-03 13:33:07,003 - INFO - \u2705 Page appears to contain shopping data
+2025-09-03 13:33:09,836 - INFO - \U0001f4ca Page analysis for attempt 2:
+2025-09-03 13:33:09,836 - INFO -    Title: "Aloxxi" "Hydrating conditioner 1.5oz" - Google Search...
+2025-09-03 13:33:09,836 - INFO -    Has shopping results: True
+2025-09-03 13:33:09,836 - INFO -    Total links: 151
+2025-09-03 13:33:09,836 - INFO -    Price mentions: 22
+2025-09-03 13:33:09,836 - INFO -    Target domains found: ['matandmax.com']
+2025-09-03 13:33:09,836 - INFO -    Sample prices: ['$64.99', '$26', '$5.99', '$3500', '$28.98']
+2025-09-03 13:33:09,946 - INFO -    Found 3 results with: a.plantl.clickable-card.pla-unit-single-clickable-target
+2025-09-03 13:33:09,958 - INFO -    Found 15 results with: a.plantl
+2025-09-03 13:33:09,968 - INFO -    Found 9 results with: a[data-merchant-id]
+2025-09-03 13:33:09,978 - INFO -    Found 9 results with: a[data-offer-id]
+2025-09-03 13:33:09,984 - INFO -    Found 12 results with: a[href*="matandmax.com"]
+2025-09-03 13:33:10,025 - INFO - \U0001f4e6 Found 5 unique shopping results
+2025-09-03 13:33:10,025 - INFO - \u2705 ACCEPTED matandmax: $6.0 (pos 1)
+2025-09-03 13:33:10,025 - INFO - \u2705 ACCEPTED matandmax: $5.99 (pos 3)
+2025-09-03 13:33:10,025 - INFO - \u2705 Found competitor data, using this search
+2025-09-03 13:33:10,025 - INFO - \u2705 Final result - matandmax: $5.99
+2025-09-03 13:33:10,026 - INFO - \U0001f3af Total competitors found: 1
+2025-09-03 13:33:10,026 - INFO - \U0001f4ca Product 9 complete: Found 2/8 competitor prices
+2025-09-03 13:33:10,026 - INFO - \u23f3 Waiting 19.8s before next product...
+2025-09-03 13:33:29,868 - INFO - 
+================================================================================
+2025-09-03 13:33:29,869 - INFO - \U0001f4e6 PROCESSING PRODUCT 10/15
+2025-09-03 13:33:29,869 - INFO - Product: Aloxxi - Clarifying shampoo 33.8oz
+2025-09-03 13:33:29,869 - INFO - ================================================================================
+2025-09-03 13:33:29,869 - INFO - \U0001f50d Attempt 1: Searching for 'Aloxxi Clarifying shampoo 33.8oz'
+2025-09-03 13:33:31,150 - INFO - \U0001f310 Loading page with Selenium: https://www.google.com/search?udm=28&q=Aloxxi+Clarifying+shampoo+33.8oz&gl=ca&hl=en
+2025-09-03 13:33:35,473 - INFO - \U0001f4c4 Current URL: https://www.google.com/search?gl=ca&hl=en&q=Aloxxi+Clarifying+shampoo+33.8oz&ved=1t:238573&ictx=111&biw=1906&bih=643&dpr=1.5&sei=7Xu4aKuZGa2_p84P4PzA2AY
+2025-09-03 13:33:35,473 - INFO - \U0001f4c4 Page title: Aloxxi Clarifying shampoo 33.8oz - Google Search
+2025-09-03 13:33:35,703 - INFO - \U0001f4f8 Screenshot saved: debug_html/screenshot_1756920815.png
+2025-09-03 13:33:35,816 - INFO - \U0001f41b Debug HTML saved to: debug_html\initial_page_1756920815.html
+2025-09-03 13:33:35,865 - INFO - \u2705 Found 116 elements with selector: a.plantl
+2025-09-03 13:33:40,687 - INFO - \U0001f41b Debug HTML saved to: debug_html\final_page_1756920820.html
+2025-09-03 13:33:40,708 - INFO - \u2705 Page appears to contain shopping data
+2025-09-03 13:33:43,483 - INFO - \U0001f4ca Page analysis for attempt 1:
+2025-09-03 13:33:43,483 - INFO -    Title: Aloxxi Clarifying shampoo 33.8oz - Google Search...
+2025-09-03 13:33:43,483 - INFO -    Has shopping results: True
+2025-09-03 13:33:43,483 - INFO -    Total links: 338
+2025-09-03 13:33:43,483 - INFO -    Price mentions: 24
+2025-09-03 13:33:43,483 - INFO -    Target domains found: ['matandmax.com', 'cosmeticworld.ca']
+2025-09-03 13:33:43,483 - INFO -    Sample prices: ['$84.88', '$58.05', '$3.50', '$12.50', '$3']
+2025-09-03 13:33:43,756 - INFO -    Found 29 results with: a.plantl.clickable-card.pla-unit-single-clickable-target
+2025-09-03 13:33:43,765 - INFO -    Found 116 results with: a.plantl
+2025-09-03 13:33:43,775 - INFO -    Found 58 results with: a[data-merchant-id]
+2025-09-03 13:33:43,789 - INFO -    Found 58 results with: a[data-offer-id]
+2025-09-03 13:33:43,799 - INFO -    Found 79 results with: a[href*="matandmax.com"]
+2025-09-03 13:33:43,866 - INFO -    Found 8 results with: a[href*="cosmeticworld.ca"]
+2025-09-03 13:33:43,867 - INFO - \U0001f4e6 Found 34 unique shopping results
+2025-09-03 13:33:43,867 - WARNING - \u274c No competitor data extracted from attempt 1
+2025-09-03 13:33:43,867 - INFO -    Trying next search variation...
+2025-09-03 13:33:48,867 - INFO - \U0001f50d Attempt 2: Searching for '"Aloxxi" "Clarifying shampoo 33.8oz"'
+2025-09-03 13:33:50,139 - INFO - \U0001f310 Loading page with Selenium: https://www.google.com/search?udm=28&q=%22Aloxxi%22+%22Clarifying+shampoo+33.8oz%22&gl=ca&hl=en
+2025-09-03 13:33:55,246 - INFO - \U0001f4c4 Current URL: https://www.google.com/search?gl=ca&hl=en&q=%22Aloxxi%22+%22Clarifying+shampoo+33.8oz%22&ved=1t:238573&ictx=111&biw=1906&bih=643&dpr=1.5&sei=AXy4aOXSBIzTp84P9YHu6AU
+2025-09-03 13:33:55,246 - INFO - \U0001f4c4 Page title: "Aloxxi" "Clarifying shampoo 33.8oz" - Google Search
+2025-09-03 13:33:55,582 - INFO - \U0001f4f8 Screenshot saved: debug_html/screenshot_1756920835.png
+2025-09-03 13:33:55,671 - INFO - \U0001f41b Debug HTML saved to: debug_html\initial_page_1756920835.html
+2025-09-03 13:33:55,726 - INFO - \u2705 Found 70 elements with selector: a.plantl
+2025-09-03 13:33:59,993 - INFO - \U0001f41b Debug HTML saved to: debug_html\final_page_1756920839.html
+2025-09-03 13:34:00,011 - INFO - \u2705 Page appears to contain shopping data
+2025-09-03 13:34:02,732 - INFO - \U0001f4ca Page analysis for attempt 2:
+2025-09-03 13:34:02,732 - INFO -    Title: "Aloxxi" "Clarifying shampoo 33.8oz" - Google Search...
+2025-09-03 13:34:02,732 - INFO -    Has shopping results: True
+2025-09-03 13:34:02,732 - INFO -    Total links: 265
+2025-09-03 13:34:02,732 - INFO -    Price mentions: 25
+2025-09-03 13:34:02,732 - INFO -    Target domains found: ['matandmax.com']
+2025-09-03 13:34:02,732 - INFO -    Sample prices: ['$38', '$53.60', '$71.71', '$15.99', '$551.93']
+2025-09-03 13:34:02,862 - INFO -    Found 14 results with: a.plantl.clickable-card.pla-unit-single-clickable-target
+2025-09-03 13:34:02,869 - INFO -    Found 70 results with: a.plantl
+2025-09-03 13:34:02,877 - INFO -    Found 42 results with: a[data-merchant-id]
+2025-09-03 13:34:02,886 - INFO -    Found 42 results with: a[data-offer-id]
+2025-09-03 13:34:02,895 - INFO -    Found 43 results with: a[href*="matandmax.com"]
+2025-09-03 13:34:02,968 - INFO - \U0001f4e6 Found 16 unique shopping results
+2025-09-03 13:34:02,968 - INFO - \u2705 ACCEPTED matandmax: $50.0 (pos 1)
+2025-09-03 13:34:02,969 - INFO - \u2705 ACCEPTED matandmax: $48.6 (pos 12)
+2025-09-03 13:34:02,969 - INFO - \u2705 Found competitor data, using this search
+2025-09-03 13:34:02,969 - INFO - \u2705 Final result - matandmax: $48.6
+2025-09-03 13:34:02,969 - INFO - \U0001f3af Total competitors found: 1
+2025-09-03 13:34:02,969 - INFO - \U0001f4ca Product 10 complete: Found 2/8 competitor prices
+2025-09-03 13:34:02,969 - INFO - \u23f3 Waiting 16.9s before next product...
+2025-09-03 13:34:19,909 - INFO - 
+================================================================================
+2025-09-03 13:34:19,910 - INFO - \U0001f4e6 PROCESSING PRODUCT 11/15
+2025-09-03 13:34:19,910 - INFO - Product: Aloxxi - Reparative shampoo 33.8oz
+2025-09-03 13:34:19,910 - INFO - ================================================================================
+2025-09-03 13:34:19,910 - INFO - \U0001f50d Attempt 1: Searching for 'Aloxxi Reparative shampoo 33.8oz'
+2025-09-03 13:34:21,134 - INFO - \U0001f310 Loading page with Selenium: https://www.google.com/search?udm=28&q=Aloxxi+Reparative+shampoo+33.8oz&gl=ca&hl=en
+2025-09-03 13:34:24,658 - INFO - \U0001f4c4 Current URL: https://www.google.com/search?gl=ca&hl=en&q=Aloxxi+Reparative+shampoo+33.8oz&ved=1t:238573&ictx=111&biw=1906&bih=643&dpr=1.5&sei=Hny4aKf6EonnwN4PraLL0Qc
+2025-09-03 13:34:24,658 - INFO - \U0001f4c4 Page title: Aloxxi Reparative shampoo 33.8oz - Google Search
+2025-09-03 13:34:24,921 - INFO - \U0001f4f8 Screenshot saved: debug_html/screenshot_1756920864.png
+2025-09-03 13:34:25,057 - INFO - \U0001f41b Debug HTML saved to: debug_html\initial_page_1756920865.html
+2025-09-03 13:34:25,103 - INFO - \u2705 Found 72 elements with selector: a.plantl
+2025-09-03 13:34:31,152 - INFO - \U0001f41b Debug HTML saved to: debug_html\final_page_1756920871.html
+2025-09-03 13:34:31,166 - INFO - \u2705 Page appears to contain shopping data
+2025-09-03 13:34:33,991 - INFO - \U0001f4ca Page analysis for attempt 1:
+2025-09-03 13:34:33,991 - INFO -    Title: Aloxxi Reparative shampoo 33.8oz - Google Search...
+2025-09-03 13:34:33,991 - INFO -    Has shopping results: True
+2025-09-03 13:34:33,991 - INFO -    Total links: 258
+2025-09-03 13:34:33,991 - INFO -    Price mentions: 30
+2025-09-03 13:34:33,991 - INFO -    Target domains found: ['matandmax.com', 'cosmeticworld.ca']
+2025-09-03 13:34:33,991 - INFO -    Sample prices: ['$272', '$71.71', '$135.12', '$12.50', '$30']
+2025-09-03 13:34:34,105 - INFO -    Found 18 results with: a.plantl.clickable-card.pla-unit-single-clickable-target
+2025-09-03 13:34:34,117 - INFO -    Found 72 results with: a.plantl
+2025-09-03 13:34:34,124 - INFO -    Found 36 results with: a[data-merchant-id]
+2025-09-03 13:34:34,132 - INFO -    Found 36 results with: a[data-offer-id]
+2025-09-03 13:34:34,139 - INFO -    Found 42 results with: a[href*="matandmax.com"]
+2025-09-03 13:34:34,196 - INFO -    Found 8 results with: a[href*="cosmeticworld.ca"]
+2025-09-03 13:34:34,196 - INFO - \U0001f4e6 Found 20 unique shopping results
+2025-09-03 13:34:34,196 - WARNING - \u274c No competitor data extracted from attempt 1
+2025-09-03 13:34:34,197 - INFO -    Trying next search variation...
+2025-09-03 13:34:39,197 - INFO - \U0001f50d Attempt 2: Searching for '"Aloxxi" "Reparative shampoo 33.8oz"'
+2025-09-03 13:34:40,450 - INFO - \U0001f310 Loading page with Selenium: https://www.google.com/search?udm=28&q=%22Aloxxi%22+%22Reparative+shampoo+33.8oz%22&gl=ca&hl=en
+2025-09-03 13:34:43,839 - INFO - \U0001f4c4 Current URL: https://www.google.com/search?udm=28&q=%22Aloxxi%22+%22Reparative+shampoo+33.8oz%22&gl=ca&hl=en&sei=L3y4aI3qPJikptQP0tKViAQ
+2025-09-03 13:34:43,839 - INFO - \U0001f4c4 Page title: "Aloxxi" "Reparative shampoo 33.8oz" - Google Shopping
+2025-09-03 13:34:44,008 - INFO - \U0001f4f8 Screenshot saved: debug_html/screenshot_1756920883.png
+2025-09-03 13:34:44,117 - INFO - \U0001f41b Debug HTML saved to: debug_html\initial_page_1756920884.html
+2025-09-03 13:34:47,060 - INFO - \u2705 Found 64 elements with selector: a.plantl
+2025-09-03 13:34:51,686 - INFO - \U0001f41b Debug HTML saved to: debug_html\final_page_1756920891.html
+2025-09-03 13:34:51,704 - INFO - \u2705 Page appears to contain shopping data
+2025-09-03 13:34:54,544 - INFO - \U0001f4ca Page analysis for attempt 2:
+2025-09-03 13:34:54,545 - INFO -    Title: "Aloxxi" "Reparative shampoo 33.8oz" - Google Search...
+2025-09-03 13:34:54,545 - INFO -    Has shopping results: True
+2025-09-03 13:34:54,545 - INFO -    Total links: 288
+2025-09-03 13:34:54,545 - INFO -    Price mentions: 32
+2025-09-03 13:34:54,545 - INFO -    Target domains found: ['matandmax.com', 'cosmeticworld.ca']
+2025-09-03 13:34:54,545 - INFO -    Sample prices: ['$59', '$272', '$53.60', '$80', '$57.80']
+2025-09-03 13:34:54,696 - INFO -    Found 22 results with: a.plantl.clickable-card.pla-unit-single-clickable-target
+2025-09-03 13:34:54,705 - INFO -    Found 88 results with: a.plantl
+2025-09-03 13:34:54,714 - INFO -    Found 44 results with: a[data-merchant-id]
+2025-09-03 13:34:54,724 - INFO -    Found 44 results with: a[data-offer-id]
+2025-09-03 13:34:54,733 - INFO -    Found 42 results with: a[href*="matandmax.com"]
+2025-09-03 13:34:54,815 - INFO -    Found 8 results with: a[href*="cosmeticworld.ca"]
+2025-09-03 13:34:54,816 - INFO - \U0001f4e6 Found 24 unique shopping results
+2025-09-03 13:34:54,816 - WARNING - \u274c No competitor data extracted from attempt 2
+2025-09-03 13:34:54,816 - INFO -    Trying next search variation...
+2025-09-03 13:34:59,817 - INFO - \U0001f50d Attempt 3: Searching for 'Reparative shampoo 33.8oz Aloxxi'
+2025-09-03 13:35:01,088 - INFO - \U0001f310 Loading page with Selenium: https://www.google.com/search?udm=28&q=Reparative+shampoo+33.8oz+Aloxxi&gl=ca&hl=en
+2025-09-03 13:35:05,882 - INFO - \U0001f4c4 Current URL: https://www.google.com/search?gl=ca&hl=en&q=Reparative+shampoo+33.8oz+Aloxxi&ved=1t:238573&ictx=111&biw=1906&bih=643&dpr=1.5&sei=R3y4aNq8M5uDp84Po-zo6Ak
+2025-09-03 13:35:05,882 - INFO - \U0001f4c4 Page title: Reparative shampoo 33.8oz Aloxxi - Google Search
+2025-09-03 13:35:06,129 - INFO - \U0001f4f8 Screenshot saved: debug_html/screenshot_1756920905.png
+2025-09-03 13:35:06,282 - INFO - \U0001f41b Debug HTML saved to: debug_html\initial_page_1756920906.html
+2025-09-03 13:35:06,327 - INFO - \u2705 Found 60 elements with selector: a.plantl
+2025-09-03 13:35:11,178 - INFO - \U0001f41b Debug HTML saved to: debug_html\final_page_1756920911.html
+2025-09-03 13:35:11,192 - INFO - \u2705 Page appears to contain shopping data
+2025-09-03 13:35:14,002 - INFO - \U0001f4ca Page analysis for attempt 3:
+2025-09-03 13:35:14,002 - INFO -    Title: Reparative shampoo 33.8oz Aloxxi - Google Search...
+2025-09-03 13:35:14,002 - INFO -    Has shopping results: True
+2025-09-03 13:35:14,002 - INFO -    Total links: 236
+2025-09-03 13:35:14,002 - INFO -    Price mentions: 28
+2025-09-03 13:35:14,002 - INFO -    Target domains found: ['matandmax.com', 'cosmeticworld.ca']
+2025-09-03 13:35:14,002 - INFO -    Sample prices: ['$272', '$12.50', '$21.99', '$3', '$27.00']
+2025-09-03 13:35:14,101 - INFO -    Found 12 results with: a.plantl.clickable-card.pla-unit-single-clickable-target
+2025-09-03 13:35:14,115 - INFO -    Found 60 results with: a.plantl
+2025-09-03 13:35:14,130 - INFO -    Found 36 results with: a[data-merchant-id]
+2025-09-03 13:35:14,144 - INFO -    Found 36 results with: a[data-offer-id]
+2025-09-03 13:35:14,158 - INFO -    Found 45 results with: a[href*="matandmax.com"]
+2025-09-03 13:35:14,225 - INFO -    Found 5 results with: a[href*="cosmeticworld.ca"]
+2025-09-03 13:35:14,225 - INFO - \U0001f4e6 Found 17 unique shopping results
+2025-09-03 13:35:14,225 - INFO - \u2705 ACCEPTED matandmax: $90.0 (pos 1)
+2025-09-03 13:35:14,225 - INFO - \u2705 ACCEPTED cosmeticworld: $18.99 (pos 3)
+2025-09-03 13:35:14,225 - INFO - \u2705 ACCEPTED matandmax: $48.6 (pos 5)
+2025-09-03 13:35:14,225 - INFO - \u2705 ACCEPTED matandmax: $27.0 (pos 10)
+2025-09-03 13:35:14,226 - INFO - \u2705 Found competitor data, using this search
+2025-09-03 13:35:14,226 - INFO - \u2705 Final result - matandmax: $27.0
+2025-09-03 13:35:14,226 - INFO - \u2705 Final result - cosmeticworld: $18.99
+2025-09-03 13:35:14,226 - INFO - \U0001f3af Total competitors found: 2
+2025-09-03 13:35:14,226 - INFO - \U0001f4ca Product 11 complete: Found 3/8 competitor prices
+2025-09-03 13:35:14,226 - INFO - \u23f3 Waiting 22.2s before next product...
+2025-09-03 13:35:36,437 - INFO - 
+================================================================================
+2025-09-03 13:35:36,437 - INFO - \U0001f4e6 PROCESSING PRODUCT 12/15
+2025-09-03 13:35:36,437 - INFO - Product: Aloxxi - Hydrating shampoo 10oz
+2025-09-03 13:35:36,437 - INFO - ================================================================================
+2025-09-03 13:35:36,437 - INFO - \U0001f50d Attempt 1: Searching for 'Aloxxi Hydrating shampoo 10oz'
+2025-09-03 13:35:37,662 - INFO - \U0001f310 Loading page with Selenium: https://www.google.com/search?udm=28&q=Aloxxi+Hydrating+shampoo+10oz&gl=ca&hl=en
+2025-09-03 13:35:42,173 - INFO - \U0001f4c4 Current URL: https://www.google.com/search?gl=ca&hl=en&q=Aloxxi+Hydrating+shampoo+10oz&ved=1t:238573&ictx=111&biw=1906&bih=643&dpr=1.5&sei=bHy4aJ2gD86mptQPisekkQ8
+2025-09-03 13:35:42,173 - INFO - \U0001f4c4 Page title: Aloxxi Hydrating shampoo 10oz - Google Search
+2025-09-03 13:35:42,363 - INFO - \U0001f4f8 Screenshot saved: debug_html/screenshot_1756920942.png
+2025-09-03 13:35:42,535 - INFO - \U0001f41b Debug HTML saved to: debug_html\initial_page_1756920942.html
+2025-09-03 13:35:42,710 - INFO - \u2705 Found 105 elements with selector: a.plantl
+2025-09-03 13:35:46,445 - INFO - \U0001f41b Debug HTML saved to: debug_html\final_page_1756920946.html
+2025-09-03 13:35:46,456 - INFO - \u2705 Page appears to contain shopping data
+2025-09-03 13:35:49,259 - INFO - \U0001f4ca Page analysis for attempt 1:
+2025-09-03 13:35:49,259 - INFO -    Title: Aloxxi Hydrating shampoo 10oz - Google Search...
+2025-09-03 13:35:49,259 - INFO -    Has shopping results: True
+2025-09-03 13:35:49,259 - INFO -    Total links: 334
+2025-09-03 13:35:49,259 - INFO -    Price mentions: 31
+2025-09-03 13:35:49,260 - INFO -    Target domains found: ['matandmax.com', 'cosmeticworld.ca']
+2025-09-03 13:35:49,260 - INFO -    Sample prices: ['$71.71', '$13.99', '$21.00', '$112.46', '$30.00']
+2025-09-03 13:35:49,382 - INFO -    Found 21 results with: a.plantl.clickable-card.pla-unit-single-clickable-target
+2025-09-03 13:35:49,391 - INFO -    Found 105 results with: a.plantl
+2025-09-03 13:35:49,406 - INFO -    Found 63 results with: a[data-merchant-id]
+2025-09-03 13:35:49,419 - INFO -    Found 63 results with: a[data-offer-id]
+2025-09-03 13:35:49,428 - INFO -    Found 61 results with: a[href*="matandmax.com"]
+2025-09-03 13:35:49,498 - INFO -    Found 16 results with: a[href*="cosmeticworld.ca"]
+2025-09-03 13:35:49,498 - INFO - \U0001f4e6 Found 28 unique shopping results
+2025-09-03 13:35:49,498 - INFO - \u2705 ACCEPTED matandmax: $27.0 (pos 1)
+2025-09-03 13:35:49,498 - INFO - \u2705 ACCEPTED cosmeticworld: $22.99 (pos 2)
+2025-09-03 13:35:49,499 - INFO - \u2705 ACCEPTED cosmeticworld: $18.99 (pos 11)
+2025-09-03 13:35:49,499 - INFO - \u2705 ACCEPTED matandmax: $6.0 (pos 15)
+2025-09-03 13:35:49,499 - INFO - \u2705 Found competitor data, using this search
+2025-09-03 13:35:49,499 - INFO - \u2705 Final result - matandmax: $6.0
+2025-09-03 13:35:49,499 - INFO - \u2705 Final result - cosmeticworld: $18.99
+2025-09-03 13:35:49,499 - INFO - \U0001f3af Total competitors found: 2
+2025-09-03 13:35:49,500 - INFO - \U0001f4ca Product 12 complete: Found 3/8 competitor prices
+2025-09-03 13:35:49,500 - INFO - \u23f3 Waiting 20.3s before next product...
+2025-09-03 13:36:09,806 - INFO - 
+================================================================================
+2025-09-03 13:36:09,806 - INFO - \U0001f4e6 PROCESSING PRODUCT 13/15
+2025-09-03 13:36:09,806 - INFO - Product: Aloxxi - Reparative Shampoo 10.1oz
+2025-09-03 13:36:09,806 - INFO - ================================================================================
+2025-09-03 13:36:09,806 - INFO - \U0001f50d Attempt 1: Searching for 'Aloxxi Reparative Shampoo 10.1oz'
+2025-09-03 13:36:11,046 - INFO - \U0001f310 Loading page with Selenium: https://www.google.com/search?udm=28&q=Aloxxi+Reparative+Shampoo+10.1oz&gl=ca&hl=en
+2025-09-03 13:36:14,473 - INFO - \U0001f4c4 Current URL: https://www.google.com/search?udm=28&q=Aloxxi+Reparative+Shampoo+10.1oz&gl=ca&hl=en&sei=iny4aKLLI4jKp84PutupsQU
+2025-09-03 13:36:14,473 - INFO - \U0001f4c4 Page title: Aloxxi Reparative Shampoo 10.1oz - Google Shopping
+2025-09-03 13:36:14,676 - INFO - \U0001f4f8 Screenshot saved: debug_html/screenshot_1756920974.png
+2025-09-03 13:36:14,801 - INFO - \U0001f41b Debug HTML saved to: debug_html\initial_page_1756920974.html
+2025-09-03 13:36:17,402 - INFO - \u2705 Found 36 elements with selector: a.plantl
+2025-09-03 13:36:20,540 - INFO - \U0001f41b Debug HTML saved to: debug_html\final_page_1756920980.html
+2025-09-03 13:36:20,549 - INFO - \u2705 Page appears to contain shopping data
+2025-09-03 13:36:23,338 - INFO - \U0001f4ca Page analysis for attempt 1:
+2025-09-03 13:36:23,338 - INFO -    Title: Aloxxi Reparative Shampoo 10.1oz - Google Search...
+2025-09-03 13:36:23,338 - INFO -    Has shopping results: True
+2025-09-03 13:36:23,338 - INFO -    Total links: 183
+2025-09-03 13:36:23,338 - INFO -    Price mentions: 15
+2025-09-03 13:36:23,338 - INFO -    Target domains found: ['matandmax.com', 'cosmeticworld.ca']
+2025-09-03 13:36:23,338 - INFO -    Sample prices: ['$28.00', '$29.98', '$18.99', '$59', '$35.86']
+2025-09-03 13:36:23,444 - INFO -    Found 9 results with: a.plantl.clickable-card.pla-unit-single-clickable-target
+2025-09-03 13:36:23,450 - INFO -    Found 36 results with: a.plantl
+2025-09-03 13:36:23,455 - INFO -    Found 18 results with: a[data-merchant-id]
+2025-09-03 13:36:23,462 - INFO -    Found 18 results with: a[data-offer-id]
+2025-09-03 13:36:23,468 - INFO -    Found 30 results with: a[href*="matandmax.com"]
+2025-09-03 13:36:23,508 - INFO -    Found 5 results with: a[href*="cosmeticworld.ca"]
+2025-09-03 13:36:23,509 - INFO - \U0001f4e6 Found 12 unique shopping results
+2025-09-03 13:36:23,509 - WARNING - \u274c No competitor data extracted from attempt 1
+2025-09-03 13:36:23,509 - INFO -    Trying next search variation...
+2025-09-03 13:36:28,509 - INFO - \U0001f50d Attempt 2: Searching for '"Aloxxi" "Reparative Shampoo 10.1oz"'
+2025-09-03 13:36:30,221 - INFO - \U0001f310 Loading page with Selenium: https://www.google.com/search?udm=28&q=%22Aloxxi%22+%22Reparative+Shampoo+10.1oz%22&gl=ca&hl=en
+2025-09-03 13:36:34,366 - INFO - \U0001f4c4 Current URL: https://www.google.com/search?gl=ca&hl=en&q=%22Aloxxi%22+%22Reparative+Shampoo+10.1oz%22&ved=1t:238573&ictx=111&biw=1906&bih=643&dpr=1.5&sei=oHy4aKrjAr3Np84P_--86A4
+2025-09-03 13:36:34,366 - INFO - \U0001f4c4 Page title: "Aloxxi" "Reparative Shampoo 10.1oz" - Google Search
+2025-09-03 13:36:34,639 - INFO - \U0001f4f8 Screenshot saved: debug_html/screenshot_1756920994.png
+2025-09-03 13:36:34,718 - INFO - \U0001f41b Debug HTML saved to: debug_html\initial_page_1756920994.html
+2025-09-03 13:36:34,768 - INFO - \u2705 Found 25 elements with selector: a.plantl
+2025-09-03 13:36:38,178 - INFO - \U0001f41b Debug HTML saved to: debug_html\final_page_1756920998.html
+2025-09-03 13:36:38,192 - INFO - \u2705 Page appears to contain shopping data
+2025-09-03 13:36:41,762 - INFO - \U0001f4ca Page analysis for attempt 2:
+2025-09-03 13:36:41,762 - INFO -    Title: "Aloxxi" "Reparative Shampoo 10.1oz" - Google Search...
+2025-09-03 13:36:41,762 - INFO -    Has shopping results: True
+2025-09-03 13:36:41,762 - INFO -    Total links: 116
+2025-09-03 13:36:41,762 - INFO -    Price mentions: 20
+2025-09-03 13:36:41,762 - INFO -    Target domains found: ['matandmax.com']
+2025-09-03 13:36:41,762 - INFO -    Sample prices: ['$19.96', '$1.66', '$33.16', '$27.00', '$50']
+2025-09-03 13:36:41,889 - INFO -    Found 5 results with: a.plantl.clickable-card.pla-unit-single-clickable-target
+2025-09-03 13:36:41,897 - INFO -    Found 25 results with: a.plantl
+2025-09-03 13:36:41,904 - INFO -    Found 15 results with: a[data-merchant-id]
+2025-09-03 13:36:41,912 - INFO -    Found 15 results with: a[data-offer-id]
+2025-09-03 13:36:41,923 - INFO -    Found 24 results with: a[href*="matandmax.com"]
+2025-09-03 13:36:41,985 - INFO - \U0001f4e6 Found 8 unique shopping results
+2025-09-03 13:36:41,985 - INFO - \u2705 ACCEPTED matandmax: $27.0 (pos 1)
+2025-09-03 13:36:41,985 - INFO - \u2705 Found competitor data, using this search
+2025-09-03 13:36:41,985 - INFO - \u2705 Final result - matandmax: $27.0
+2025-09-03 13:36:41,985 - INFO - \U0001f3af Total competitors found: 1
+2025-09-03 13:36:41,986 - INFO - \U0001f4ca Product 13 complete: Found 2/8 competitor prices
+2025-09-03 13:36:41,986 - INFO - \u23f3 Waiting 19.7s before next product...
+2025-09-03 13:37:01,658 - INFO - 
+================================================================================
+2025-09-03 13:37:01,659 - INFO - \U0001f4e6 PROCESSING PRODUCT 14/15
+2025-09-03 13:37:01,659 - INFO - Product: Aloxxi - Volumizing shampoo 10oz
+2025-09-03 13:37:01,659 - INFO - ================================================================================
+2025-09-03 13:37:01,659 - INFO - \U0001f50d Attempt 1: Searching for 'Aloxxi Volumizing shampoo 10oz'
+2025-09-03 13:37:03,054 - INFO - \U0001f310 Loading page with Selenium: https://www.google.com/search?udm=28&q=Aloxxi+Volumizing+shampoo+10oz&gl=ca&hl=en
+2025-09-03 13:37:07,498 - INFO - \U0001f4c4 Current URL: https://www.google.com/search?gl=ca&hl=en&q=Aloxxi+Volumizing+shampoo+10oz&ved=1t:238573&ictx=111&biw=1906&bih=643&dpr=1.5&sei=wXy4aPKLKff_ptQP-oiu8Ac
+2025-09-03 13:37:07,498 - INFO - \U0001f4c4 Page title: Aloxxi Volumizing shampoo 10oz - Google Search
+2025-09-03 13:37:07,782 - INFO - \U0001f4f8 Screenshot saved: debug_html/screenshot_1756921027.png
+2025-09-03 13:37:08,007 - INFO - \U0001f41b Debug HTML saved to: debug_html\initial_page_1756921027.html
+2025-09-03 13:37:08,073 - INFO - \u2705 Found 120 elements with selector: a.plantl
+2025-09-03 13:37:11,346 - INFO - \U0001f41b Debug HTML saved to: debug_html\final_page_1756921031.html
+2025-09-03 13:37:11,356 - INFO - \u2705 Page appears to contain shopping data
+2025-09-03 13:37:14,150 - INFO - \U0001f4ca Page analysis for attempt 1:
+2025-09-03 13:37:14,150 - INFO -    Title: Aloxxi Volumizing shampoo 10oz - Google Search...
+2025-09-03 13:37:14,150 - INFO -    Has shopping results: True
+2025-09-03 13:37:14,150 - INFO -    Total links: 361
+2025-09-03 13:37:14,150 - INFO -    Price mentions: 32
+2025-09-03 13:37:14,150 - INFO -    Target domains found: ['matandmax.com', 'cosmeticworld.ca']
+2025-09-03 13:37:14,150 - INFO -    Sample prices: ['$7.00', '$53.62', '$39.98', '$112.46', '$20.84']
+2025-09-03 13:37:14,285 - INFO -    Found 24 results with: a.plantl.clickable-card.pla-unit-single-clickable-target
+2025-09-03 13:37:14,295 - INFO -    Found 120 results with: a.plantl
+2025-09-03 13:37:14,304 - INFO -    Found 72 results with: a[data-merchant-id]
+2025-09-03 13:37:14,313 - INFO -    Found 72 results with: a[data-offer-id]
+2025-09-03 13:37:14,322 - INFO -    Found 77 results with: a[href*="matandmax.com"]
+2025-09-03 13:37:14,415 - INFO -    Found 10 results with: a[href*="cosmeticworld.ca"]
+2025-09-03 13:37:14,415 - INFO - \U0001f4e6 Found 25 unique shopping results
+2025-09-03 13:37:14,415 - INFO - \u2705 ACCEPTED matandmax: $27.0 (pos 1)
+2025-09-03 13:37:14,415 - INFO - \u2705 ACCEPTED matandmax: $6.0 (pos 6)
+2025-09-03 13:37:14,415 - INFO - \u2705 ACCEPTED cosmeticworld: $22.99 (pos 7)
+2025-09-03 13:37:14,416 - INFO - \u2705 ACCEPTED cosmeticworld: $18.99 (pos 20)
+2025-09-03 13:37:14,416 - INFO - \u2705 Found competitor data, using this search
+2025-09-03 13:37:14,416 - INFO - \u2705 Final result - matandmax: $6.0
+2025-09-03 13:37:14,416 - INFO - \u2705 Final result - cosmeticworld: $18.99
+2025-09-03 13:37:14,416 - INFO - \U0001f3af Total competitors found: 2
+2025-09-03 13:37:14,416 - INFO - \U0001f4ca Product 14 complete: Found 3/8 competitor prices
+2025-09-03 13:37:14,416 - INFO - \u23f3 Waiting 20.3s before next product...
+2025-09-03 13:37:34,742 - INFO - 
+================================================================================
+2025-09-03 13:37:34,742 - INFO - \U0001f4e6 PROCESSING PRODUCT 15/15
+2025-09-03 13:37:34,742 - INFO - Product: Aloxxi - E7 Anti-Frizz Shampoo 10.1oz
+2025-09-03 13:37:34,742 - INFO - ================================================================================
+2025-09-03 13:37:34,742 - INFO - \U0001f50d Attempt 1: Searching for 'Aloxxi E7 Anti-Frizz Shampoo 10.1oz'
+2025-09-03 13:37:36,013 - INFO - \U0001f310 Loading page with Selenium: https://www.google.com/search?udm=28&q=Aloxxi+E7+Anti-Frizz+Shampoo+10.1oz&gl=ca&hl=en
+2025-09-03 13:37:39,622 - INFO - \U0001f4c4 Current URL: https://www.google.com/search?gl=ca&hl=en&q=Aloxxi+E7+Anti-Frizz+Shampoo+10.1oz&ved=1t:238573&ictx=111&biw=1906&bih=643&dpr=1.5&sei=4Hy4aKW6OJndwN4Pi93D4Qg
+2025-09-03 13:37:39,622 - INFO - \U0001f4c4 Page title: Aloxxi E7 Anti-Frizz Shampoo 10.1oz - Google Search
+2025-09-03 13:37:39,914 - INFO - \U0001f4f8 Screenshot saved: debug_html/screenshot_1756921059.png
+2025-09-03 13:37:40,127 - INFO - \U0001f41b Debug HTML saved to: debug_html\initial_page_1756921060.html
+2025-09-03 13:37:40,178 - INFO - \u2705 Found 35 elements with selector: a.plantl
+2025-09-03 13:37:46,383 - INFO - \U0001f41b Debug HTML saved to: debug_html\final_page_1756921066.html
+2025-09-03 13:37:46,441 - INFO - \u2705 Page appears to contain shopping data
+2025-09-03 13:37:49,506 - INFO - \U0001f4ca Page analysis for attempt 1:
+2025-09-03 13:37:49,506 - INFO -    Title: Aloxxi E7 Anti-Frizz Shampoo 10.1oz - Google Shopping...
+2025-09-03 13:37:49,506 - INFO -    Has shopping results: True
+2025-09-03 13:37:49,506 - INFO -    Total links: 197
+2025-09-03 13:37:49,506 - INFO -    Price mentions: 52
+2025-09-03 13:37:49,506 - INFO -    Target domains found: ['matandmax.com']
+2025-09-03 13:37:49,506 - INFO -    Sample prices: ['$40.00', '$59', '$41.38', '$207', '$41.39']
+2025-09-03 13:37:49,730 - INFO -    Found 8 results with: a.plantl.clickable-card.pla-unit-single-clickable-target
+2025-09-03 13:37:49,741 - INFO -    Found 32 results with: a.plantl
+2025-09-03 13:37:49,753 - INFO -    Found 24 results with: a[data-merchant-id]
+2025-09-03 13:37:49,764 - INFO -    Found 24 results with: a[data-offer-id]
+2025-09-03 13:37:49,776 - INFO -    Found 28 results with: a[href*="matandmax.com"]
+2025-09-03 13:37:49,858 - INFO - \U0001f4e6 Found 8 unique shopping results
+2025-09-03 13:37:49,858 - INFO - \u2705 ACCEPTED matandmax: $30.0 (pos 1)
+2025-09-03 13:37:49,859 - INFO - \u2705 ACCEPTED matandmax: $27.0 (pos 8)
+2025-09-03 13:37:49,859 - INFO - \u2705 Found competitor data, using this search
+2025-09-03 13:37:49,859 - INFO - \u2705 Final result - matandmax: $27.0
+2025-09-03 13:37:49,859 - INFO - \U0001f3af Total competitors found: 1
+2025-09-03 13:37:49,859 - INFO - \U0001f4ca Product 15 complete: Found 2/8 competitor prices
+2025-09-03 13:37:49,860 - INFO - \u2705 Results saved to data_relaxed_validation_results.json
+2025-09-03 13:37:49,860 - INFO - 
+\U0001f4cb Sample result:
+2025-09-03 13:37:49,860 - INFO -    product_name: Volumizing shampoo 33.8oz
+2025-09-03 13:37:49,860 - INFO -    bar_code_value: 846943002677
+2025-09-03 13:37:49,860 - INFO -    regular_price: 50
+2025-09-03 13:37:49,861 - INFO -    matandmax_price: 48.6
+2025-09-03 13:37:49,861 - INFO -    matandmax_url: https://www.matandmax.com/ca-en/brands/aloxxi/volumizing/aloxxi-volumizing-duo.html
+2025-09-03 13:37:49,861 - INFO - 
+\U0001f4ca SUMMARY:
+2025-09-03 13:37:49,861 - INFO -    coastalbeauty: 0/15 products
+2025-09-03 13:37:49,861 - INFO -    beautywellness: 0/15 products
+2025-09-03 13:37:49,861 - INFO -    shopempire: 0/15 products
+2025-09-03 13:37:49,861 - INFO -    matandmax: 15/15 products
+2025-09-03 13:37:49,861 - INFO -    shoptbbs: 0/15 products
+2025-09-03 13:37:49,861 - INFO -    liviabeauty: 1/15 products
+2025-09-03 13:37:49,861 - INFO -    aonebeauty: 0/15 products
+2025-09-03 13:37:49,861 - INFO -    cosmeticworld: 6/15 products
+2025-09-03 13:37:49,861 - INFO -    TOTAL: 22 prices found across all competitors
